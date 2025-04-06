@@ -1,0 +1,5746 @@
+[
+    {
+        "sno": 1,
+        "pattern": 1,
+        "formula": "1",
+        "text": "ta",
+        "list": [
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 2,
+        "pattern": 1,
+        "formula": "(,)",
+        "text": ",",
+        "list": [
+            "1_,"
+        ]
+    },
+    {
+        "sno": 3,
+        "pattern": 2,
+        "formula": "2",
+        "text": "ta ka",
+        "list": [
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 4,
+        "pattern": 2,
+        "formula": "(2)",
+        "text": "dhim ,",
+        "list": [
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 5,
+        "pattern": 2,
+        "formula": "(, ,)",
+        "text": ", ,",
+        "list": [
+            "2_, ,"
+        ]
+    },
+    {
+        "sno": 6,
+        "pattern": 3,
+        "formula": "3",
+        "text": "ta ki ta",
+        "list": [
+            "3_ta ki ta"
+        ]
+    },
+    {
+        "sno": 7,
+        "pattern": 3,
+        "formula": "1(2)",
+        "text": "ta dhim ,",
+        "list": [
+            "3_ta dhim ,"
+        ]
+    },
+    {
+        "sno": 8,
+        "pattern": 3,
+        "formula": "(2)1",
+        "text": "dhim , ta",
+        "list": [
+            "2_dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 9,
+        "pattern": 3,
+        "formula": "(3)",
+        "text": "dhim , ,",
+        "list": [
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 10,
+        "pattern": 3,
+        "formula": "(, , ,)",
+        "text": ", , ,",
+        "list": [
+            "3_, , ,"
+        ]
+    },
+    {
+        "sno": 11,
+        "pattern": 4,
+        "formula": "4",
+        "text": "ta ka dhi na",
+        "list": [
+            "4_ta ka dhi na"
+        ]
+    },
+    {
+        "sno": 12,
+        "pattern": 4,
+        "formula": "2(2)",
+        "text": "ta ka dhim ,",
+        "list": [
+            "2_ta ka",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 13,
+        "pattern": 4,
+        "formula": "1(2)1",
+        "text": "ta dhim , ta",
+        "list": [
+            "3_ta dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 14,
+        "pattern": 4,
+        "formula": "1(3)",
+        "text": "ta dhim , ,",
+        "list": [
+            "4_ta dhim , ,"
+        ]
+    },
+    {
+        "sno": 15,
+        "pattern": 4,
+        "formula": "(2)2",
+        "text": "dhim , ta ka",
+        "list": [
+            "2_dhim ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 16,
+        "pattern": 4,
+        "formula": "(2)(2)",
+        "text": "ta , dhim ,",
+        "list": [
+            "2_ta ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 17,
+        "pattern": 4,
+        "formula": "(3)1",
+        "text": "dhim , , ta",
+        "list": [
+            "3_dhim , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 18,
+        "pattern": 4,
+        "formula": "(4)",
+        "text": "dhim , , ,",
+        "list": [
+            "4_dhim , , ,"
+        ]
+    },
+    {
+        "sno": 19,
+        "pattern": 4,
+        "formula": "(, , , ,)",
+        "text": ", , , ,",
+        "list": [
+            "4_, , , ,"
+        ]
+    },
+    {
+        "sno": 20,
+        "pattern": 5,
+        "formula": "5",
+        "text": "ta dhi gi na ta",
+        "list": [
+            "5_ta dhi gi na ta"
+        ]
+    },
+    {
+        "sno": 21,
+        "pattern": 5,
+        "formula": "3(2)",
+        "text": "ta ki ta dhim ,",
+        "list": [
+            "3_ta ki ta",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 22,
+        "pattern": 5,
+        "formula": "2(2)1",
+        "text": "ta ka dhim , ta",
+        "list": [
+            "2_ta ka",
+            "2_dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 23,
+        "pattern": 5,
+        "formula": "2(3)",
+        "text": "ta ka dhim , ,",
+        "list": [
+            "2_ta ka",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 24,
+        "pattern": 5,
+        "formula": "1(2)2",
+        "text": "ta dhim , ta ka",
+        "list": [
+            "3_ta dhim ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 25,
+        "pattern": 5,
+        "formula": "1(2)(2)",
+        "text": "ta ta , dhim ,",
+        "list": [
+            "1_ta",
+            "2_ta ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 26,
+        "pattern": 5,
+        "formula": "1(3)1",
+        "text": "ta dhim , , ta",
+        "list": [
+            "4_ta dhim , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 27,
+        "pattern": 5,
+        "formula": "1(4)",
+        "text": "ta dhim , , ,",
+        "list": [
+            "5_ta dhim , , ,"
+        ]
+    },
+    {
+        "sno": 28,
+        "pattern": 5,
+        "formula": "(2)3",
+        "text": "dhim , ta ki ta",
+        "list": [
+            "2_dhim ,",
+            "3_ta ki ta"
+        ]
+    },
+    {
+        "sno": 29,
+        "pattern": 5,
+        "formula": "(2)1(2)",
+        "text": "dhim , ta dhim ,",
+        "list": [
+            "2_dhim ,",
+            "3_ta dhim ,"
+        ]
+    },
+    {
+        "sno": 30,
+        "pattern": 5,
+        "formula": "(2)(2)1",
+        "text": "ta , dhim , ta",
+        "list": [
+            "2_ta ,",
+            "2_dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 31,
+        "pattern": 5,
+        "formula": "(2)(3)",
+        "text": "ta , dhim , ,",
+        "list": [
+            "2_ta ,",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 32,
+        "pattern": 5,
+        "formula": "(3)2",
+        "text": "dhim , , ta ka",
+        "list": [
+            "3_dhim , ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 33,
+        "pattern": 5,
+        "formula": "(3)(2)",
+        "text": "ta , , dhim ,",
+        "list": [
+            "3_ta , ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 34,
+        "pattern": 5,
+        "formula": "(4)1",
+        "text": "dhim , , , ta",
+        "list": [
+            "4_dhim , , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 35,
+        "pattern": 5,
+        "formula": "(5)",
+        "text": "dhim , , , ,",
+        "list": [
+            "5_dhim , , , ,"
+        ]
+    },
+    {
+        "sno": 36,
+        "pattern": 5,
+        "formula": "(, , , , ,)",
+        "text": ", , , , ,",
+        "list": [
+            "5_, , , , ,"
+        ]
+    },
+    {
+        "sno": 37,
+        "pattern": 6,
+        "formula": "6",
+        "text": "ta ka dhi mi ta ka",
+        "list": [
+            "4_ta ka dhi mi",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 38,
+        "pattern": 6,
+        "formula": "4(2)",
+        "text": "ta ka dhi na dhim ,",
+        "list": [
+            "4_ta ka dhi na",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 39,
+        "pattern": 6,
+        "formula": "3(2)1",
+        "text": "ta ki ta dhim , ta",
+        "list": [
+            "3_ta ki ta",
+            "2_dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 40,
+        "pattern": 6,
+        "formula": "3(3)",
+        "text": "ta ki ta dhim , ,",
+        "list": [
+            "3_ta ki ta",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 41,
+        "pattern": 6,
+        "formula": "2(2)11",
+        "text": "ta ka dhim , ta ta",
+        "list": [
+            "2_ta ka",
+            "2_dhim ,",
+            "1_ta",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 42,
+        "pattern": 6,
+        "formula": "2(2)(2)",
+        "text": "ta ka ta , dhim ,",
+        "list": [
+            "2_ta ka",
+            "2_ta ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 43,
+        "pattern": 6,
+        "formula": "2(3)1",
+        "text": "ta ka dhim , , ta",
+        "list": [
+            "2_ta ka",
+            "3_dhim , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 44,
+        "pattern": 6,
+        "formula": "2(4)",
+        "text": "ta ka dhim , , ,",
+        "list": [
+            "2_ta ka",
+            "4_dhim , , ,"
+        ]
+    },
+    {
+        "sno": 45,
+        "pattern": 6,
+        "formula": "1(2)3",
+        "text": "ta dhim , ta ki ta",
+        "list": [
+            "3_ta dhim ,",
+            "3_ta ki ta"
+        ]
+    },
+    {
+        "sno": 46,
+        "pattern": 6,
+        "formula": "1(2)1(2)",
+        "text": "ta dhim , ta dhim ,",
+        "list": [
+            "3_ta dhim ,",
+            "1_ta",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 47,
+        "pattern": 6,
+        "formula": "1(2)(2)1",
+        "text": "ta ta , dhim , ta",
+        "list": [
+            "1_ta",
+            "2_ta ,",
+            "2_dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 48,
+        "pattern": 6,
+        "formula": "1(2)(3)",
+        "text": "ta ta , dhim , ,",
+        "list": [
+            "1_ta",
+            "2_ta ,",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 49,
+        "pattern": 6,
+        "formula": "1(3)2",
+        "text": "ta dhim , , ta ka",
+        "list": [
+            "4_ta dhim , ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 50,
+        "pattern": 6,
+        "formula": "1(3)(2)",
+        "text": "ta ta , , dhim ,",
+        "list": [
+            "1_ta",
+            "3_ta , ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 51,
+        "pattern": 6,
+        "formula": "1(4)1",
+        "text": "ta dhim , , , ta",
+        "list": [
+            "5_ta dhim , , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 52,
+        "pattern": 6,
+        "formula": "1(5)",
+        "text": "ta dhim , , , ,",
+        "list": [
+            "6_ta dhim , , , ,"
+        ]
+    },
+    {
+        "sno": 53,
+        "pattern": 6,
+        "formula": "(2)4",
+        "text": "dhim , ta ka dhi na",
+        "list": [
+            "2_dhim ,",
+            "4_ta ka dhi na"
+        ]
+    },
+    {
+        "sno": 54,
+        "pattern": 6,
+        "formula": "(2)2(2)",
+        "text": "dhim , ta ka dhim ,",
+        "list": [
+            "2_dhim ,",
+            "2_ta ka",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 55,
+        "pattern": 6,
+        "formula": "(2)1(2)1",
+        "text": "dhim , ta dhim , ta",
+        "list": [
+            "2_dhim ,",
+            "3_ta dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 56,
+        "pattern": 6,
+        "formula": "(2)1(3)",
+        "text": "dhim , ta dhim , ,",
+        "list": [
+            "2_dhim ,",
+            "4_ta dhim , ,"
+        ]
+    },
+    {
+        "sno": 57,
+        "pattern": 6,
+        "formula": "(2)(2)2",
+        "text": "ta , dhim , ta ka",
+        "list": [
+            "2_ta ,",
+            "2_dhim ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 58,
+        "pattern": 6,
+        "formula": "(2)(2)(2)",
+        "text": "ta , ki , ta ,",
+        "list": [
+            "2_ta ,",
+            "2_ki ,",
+            "2_ta ,"
+        ]
+    },
+    {
+        "sno": 59,
+        "pattern": 6,
+        "formula": "(2)(3)1",
+        "text": "ta , dhim , , ta",
+        "list": [
+            "2_ta ,",
+            "3_dhim , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 60,
+        "pattern": 6,
+        "formula": "(2)(4)",
+        "text": "dhim , dhim , , ,",
+        "list": [
+            "2_dhim ,",
+            "4_dhim , , ,"
+        ]
+    },
+    {
+        "sno": 61,
+        "pattern": 6,
+        "formula": "(3)3",
+        "text": "dhim , , ta ki ta",
+        "list": [
+            "3_dhim , ,",
+            "3_ta ki ta"
+        ]
+    },
+    {
+        "sno": 62,
+        "pattern": 6,
+        "formula": "(3)1(2)",
+        "text": "dhim , , ta dhim ,",
+        "list": [
+            "3_dhim , ,",
+            "3_ta dhim ,"
+        ]
+    },
+    {
+        "sno": 63,
+        "pattern": 6,
+        "formula": "(3)(2)1",
+        "text": "ta , , dhim , ta",
+        "list": [
+            "3_ta , ,",
+            "2_dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 64,
+        "pattern": 6,
+        "formula": "(3)(3)",
+        "text": "ta , , dhim , ,",
+        "list": [
+            "3_ta , ,",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 65,
+        "pattern": 6,
+        "formula": "(4)2",
+        "text": "dhim , , , ta ka",
+        "list": [
+            "4_dhim , , ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 66,
+        "pattern": 6,
+        "formula": "(4)(2)",
+        "text": "dhim , , , dhim ,",
+        "list": [
+            "4_dhim , , ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 67,
+        "pattern": 6,
+        "formula": "(5)1",
+        "text": "dhim , , , , ta",
+        "list": [
+            "5_dhim , , , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 68,
+        "pattern": 6,
+        "formula": "(6)",
+        "text": "dhim , , , , ,",
+        "list": [
+            "6_dhim , , , , ,"
+        ]
+    },
+    {
+        "sno": 69,
+        "pattern": 6,
+        "formula": "(, , , , , ,)",
+        "text": ", , , , , ,",
+        "list": [
+            "6_, , , , , ,"
+        ]
+    },
+    {
+        "sno": 70,
+        "pattern": 7,
+        "formula": "7",
+        "text": "ta ka dhi mi ta ki ta",
+        "list": [
+            "4_ta ka dhi mi",
+            "3_ta ki ta"
+        ]
+    },
+    {
+        "sno": 71,
+        "pattern": 7,
+        "formula": "5(2)",
+        "text": "ta dhi gi na ta dhim ,",
+        "list": [
+            "5_ta dhi gi na ta",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 72,
+        "pattern": 7,
+        "formula": "4(2)1",
+        "text": "ta ka dhi na dhim , ta",
+        "list": [
+            "4_ta ka dhi na",
+            "2_dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 73,
+        "pattern": 7,
+        "formula": "4(3)",
+        "text": "ta ka dhi na dhim , ,",
+        "list": [
+            "4_ta ka dhi na",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 74,
+        "pattern": 7,
+        "formula": "3(2)2",
+        "text": "ta ki ta dhim , ta ka",
+        "list": [
+            "3_ta ki ta",
+            "2_dhim ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 75,
+        "pattern": 7,
+        "formula": "3(2)(2)",
+        "text": "ta ki ta ta , dhim ,",
+        "list": [
+            "3_ta ki ta",
+            "2_ta ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 76,
+        "pattern": 7,
+        "formula": "3(3)1",
+        "text": "ta ki ta dhim , , ta",
+        "list": [
+            "3_ta ki ta",
+            "3_dhim , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 77,
+        "pattern": 7,
+        "formula": "3(4)",
+        "text": "ta ki ta dhim , , ,",
+        "list": [
+            "3_ta ki ta",
+            "4_dhim , , ,"
+        ]
+    },
+    {
+        "sno": 78,
+        "pattern": 7,
+        "formula": "2(2)3",
+        "text": "ta ka dhim , ta ki ta",
+        "list": [
+            "2_ta ka",
+            "2_dhim ,",
+            "3_ta ki ta"
+        ]
+    },
+    {
+        "sno": 79,
+        "pattern": 7,
+        "formula": "2(2)1(2)",
+        "text": "ta ka dhim , ta dhim ,",
+        "list": [
+            "2_ta ka",
+            "2_dhim ,",
+            "3_ta dhim ,"
+        ]
+    },
+    {
+        "sno": 80,
+        "pattern": 7,
+        "formula": "2(2)(2)1",
+        "text": "ta ka ta , dhim , ta",
+        "list": [
+            "2_ta ka",
+            "2_ta ,",
+            "2_dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 81,
+        "pattern": 7,
+        "formula": "2(2)(3)",
+        "text": "ta ka ta , dhim , ,",
+        "list": [
+            "2_ta ka",
+            "2_ta ,",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 82,
+        "pattern": 7,
+        "formula": "2(3)11",
+        "text": "ta ka dhim , , ta ta",
+        "list": [
+            "2_ta ka",
+            "3_dhim , ,",
+            "1_ta",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 83,
+        "pattern": 7,
+        "formula": "2(3)(2)",
+        "text": "ta ka ta , , dhim ,",
+        "list": [
+            "2_ta ka",
+            "3_ta , ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 84,
+        "pattern": 7,
+        "formula": "2(4)1",
+        "text": "ta ka dhim , , , ta",
+        "list": [
+            "2_ta ka",
+            "4_dhim , , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 85,
+        "pattern": 7,
+        "formula": "2(5)",
+        "text": "ta ka dhim , , , ,",
+        "list": [
+            "2_ta ka",
+            "5_dhim , , , ,"
+        ]
+    },
+    {
+        "sno": 86,
+        "pattern": 7,
+        "formula": "1(2)4",
+        "text": "ta dhim , ta ka dhi na",
+        "list": [
+            "3_ta dhim ,",
+            "4_ta ka dhi na"
+        ]
+    },
+    {
+        "sno": 87,
+        "pattern": 7,
+        "formula": "1(2)2(2)",
+        "text": "ta dhim , ta ka dhim ,",
+        "list": [
+            "3_ta dhim ,",
+            "2_ta ka",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 88,
+        "pattern": 7,
+        "formula": "1(2)1(2)1",
+        "text": "ta dhim , ta dhim , ta",
+        "list": [
+            "3_ta dhim ,",
+            "1_ta",
+            "2_dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 89,
+        "pattern": 7,
+        "formula": "1(2)1(3)",
+        "text": "ta dhim , ta dhim , ,",
+        "list": [
+            "3_ta dhim ,",
+            "1_ta",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 90,
+        "pattern": 7,
+        "formula": "1(2)(2)2",
+        "text": "ta ta , dhim , ta ka",
+        "list": [
+            "1_ta",
+            "2_ta ,",
+            "2_dhim ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 91,
+        "pattern": 7,
+        "formula": "1(2)(2)(2)",
+        "text": "ta ta , ki , ta ,",
+        "list": [
+            "1_ta",
+            "2_ta ,",
+            "2_ki ,",
+            "2_ta ,"
+        ]
+    },
+    {
+        "sno": 92,
+        "pattern": 7,
+        "formula": "1(2)(3)1",
+        "text": "ta ta , dhim , , ta",
+        "list": [
+            "1_ta",
+            "2_ta ,",
+            "3_dhim , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 93,
+        "pattern": 7,
+        "formula": "1(2)(4)",
+        "text": "ta dhim , dhim , , ,",
+        "list": [
+            "3_ta dhim ,",
+            "4_dhim , , ,"
+        ]
+    },
+    {
+        "sno": 94,
+        "pattern": 7,
+        "formula": "1(3)3",
+        "text": "ta dhim , , ta ki ta",
+        "list": [
+            "4_ta dhim , ,",
+            "3_ta ki ta"
+        ]
+    },
+    {
+        "sno": 95,
+        "pattern": 7,
+        "formula": "1(3)1(2)",
+        "text": "ta dhim , , ta dhim ,",
+        "list": [
+            "4_ta dhim , ,",
+            "1_ta",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 96,
+        "pattern": 7,
+        "formula": "1(3)(2)1",
+        "text": "ta ta , , dhim , ta",
+        "list": [
+            "1_ta",
+            "3_ta , ,",
+            "2_dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 97,
+        "pattern": 7,
+        "formula": "1(3)(3)",
+        "text": "ta ta , , dhim , ,",
+        "list": [
+            "1_ta",
+            "3_ta , ,",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 98,
+        "pattern": 7,
+        "formula": "1(4)2",
+        "text": "ta dhim , , , ta ka",
+        "list": [
+            "5_ta dhim , , ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 99,
+        "pattern": 7,
+        "formula": "1(4)(2)",
+        "text": "ta dhim , , , dhim ,",
+        "list": [
+            "5_ta dhim , , ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 100,
+        "pattern": 7,
+        "formula": "1(5)1",
+        "text": "ta dhim , , , , ta",
+        "list": [
+            "6_ta dhim , , , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 101,
+        "pattern": 7,
+        "formula": "1(6)",
+        "text": "ta dhim , , , , ,",
+        "list": [
+            "7_ta dhim , , , , ,"
+        ]
+    },
+    {
+        "sno": 102,
+        "pattern": 7,
+        "formula": "(2)5",
+        "text": "dhim , ta dhi gi na ta",
+        "list": [
+            "2_dhim ,",
+            "5_ta dhi gi na ta"
+        ]
+    },
+    {
+        "sno": 103,
+        "pattern": 7,
+        "formula": "(2)3(2)",
+        "text": "dhim , ta ki ta dhim ,",
+        "list": [
+            "2_dhim ,",
+            "3_ta ki ta",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 104,
+        "pattern": 7,
+        "formula": "(2)2(2)1",
+        "text": "dhim , ta ka dhim , ta",
+        "list": [
+            "2_dhim ,",
+            "2_ta ka",
+            "2_dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 105,
+        "pattern": 7,
+        "formula": "(2)2(3)",
+        "text": "dhim , ta ka dhim , ,",
+        "list": [
+            "2_dhim ,",
+            "2_ta ka",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 106,
+        "pattern": 7,
+        "formula": "(2)1(2)2",
+        "text": "dhim , ta dhim , ta ka",
+        "list": [
+            "2_dhim ,",
+            "3_ta dhim ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 107,
+        "pattern": 7,
+        "formula": "(2)1(2)(2)",
+        "text": "dhim , ta ta , dhim ,",
+        "list": [
+            "2_dhim ,",
+            "1_ta",
+            "2_ta ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 108,
+        "pattern": 7,
+        "formula": "(2)1(3)1",
+        "text": "dhim , ta dhim , , ta",
+        "list": [
+            "2_dhim ,",
+            "4_ta dhim , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 109,
+        "pattern": 7,
+        "formula": "(2)1(4)",
+        "text": "dhim , ta dhim , , ,",
+        "list": [
+            "2_dhim ,",
+            "5_ta dhim , , ,"
+        ]
+    },
+    {
+        "sno": 110,
+        "pattern": 7,
+        "formula": "(2)(2)3",
+        "text": "ta , dhim , ta ki ta",
+        "list": [
+            "2_ta ,",
+            "2_dhim ,",
+            "3_ta ki ta"
+        ]
+    },
+    {
+        "sno": 111,
+        "pattern": 7,
+        "formula": "(2)(2)1(2)",
+        "text": "ta , dhim , ta dhim ,",
+        "list": [
+            "2_ta ,",
+            "2_dhim ,",
+            "3_ta dhim ,"
+        ]
+    },
+    {
+        "sno": 112,
+        "pattern": 7,
+        "formula": "(2)(2)(2)1",
+        "text": "ta , ki , ta , ta",
+        "list": [
+            "2_ta ,",
+            "2_ki ,",
+            "2_ta ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 113,
+        "pattern": 7,
+        "formula": "(2)(2)(3)",
+        "text": "ta , dhim , dhim , ,",
+        "list": [
+            "2_ta ,",
+            "2_dhim ,",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 114,
+        "pattern": 7,
+        "formula": "(2)(3)2",
+        "text": "ta , dhim , , ta ka",
+        "list": [
+            "2_ta ,",
+            "3_dhim , ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 115,
+        "pattern": 7,
+        "formula": "(2)(3)(2)",
+        "text": "ta , dhim , , dhim ,",
+        "list": [
+            "2_ta ,",
+            "3_dhim , ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 116,
+        "pattern": 7,
+        "formula": "(2)(4)1",
+        "text": "dhim , dhim , , , ta",
+        "list": [
+            "2_dhim ,",
+            "4_dhim , , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 117,
+        "pattern": 7,
+        "formula": "(2)(5)",
+        "text": "dhim , dhim , , , ,",
+        "list": [
+            "2_dhim ,",
+            "5_dhim , , , ,"
+        ]
+    },
+    {
+        "sno": 118,
+        "pattern": 7,
+        "formula": "(3)4",
+        "text": "dhim , , ta ka dhi na",
+        "list": [
+            "3_dhim , ,",
+            "4_ta ka dhi na"
+        ]
+    },
+    {
+        "sno": 119,
+        "pattern": 7,
+        "formula": "(3)2(2)",
+        "text": "dhim , , ta ka dhim ,",
+        "list": [
+            "3_dhim , ,",
+            "2_ta ka",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 120,
+        "pattern": 7,
+        "formula": "(3)1(2)1",
+        "text": "dhim , , ta dhim , ta",
+        "list": [
+            "3_dhim , ,",
+            "3_ta dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 121,
+        "pattern": 7,
+        "formula": "(3)1(3)",
+        "text": "dhim , , ta dhim , ,",
+        "list": [
+            "3_dhim , ,",
+            "4_ta dhim , ,"
+        ]
+    },
+    {
+        "sno": 122,
+        "pattern": 7,
+        "formula": "(3)(2)2",
+        "text": "ta , , dhim , ta ka",
+        "list": [
+            "3_ta , ,",
+            "2_dhim ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 123,
+        "pattern": 7,
+        "formula": "(3)(2)(2)",
+        "text": "dhim , , ta , dhim ,",
+        "list": [
+            "3_dhim , ,",
+            "2_ta ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 124,
+        "pattern": 7,
+        "formula": "(3)(3)1",
+        "text": "ta , , dhim , , ta",
+        "list": [
+            "3_ta , ,",
+            "3_dhim , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 125,
+        "pattern": 7,
+        "formula": "(3)(4)",
+        "text": "dhim , , dhim , , ,",
+        "list": [
+            "3_dhim , ,",
+            "4_dhim , , ,"
+        ]
+    },
+    {
+        "sno": 126,
+        "pattern": 7,
+        "formula": "(4)3",
+        "text": "dhim , , , ta ki ta",
+        "list": [
+            "4_dhim , , ,",
+            "3_ta ki ta"
+        ]
+    },
+    {
+        "sno": 127,
+        "pattern": 7,
+        "formula": "(4)1(2)",
+        "text": "dhim , , , ta dhim ,",
+        "list": [
+            "4_dhim , , ,",
+            "3_ta dhim ,"
+        ]
+    },
+    {
+        "sno": 128,
+        "pattern": 7,
+        "formula": "(4)(2)1",
+        "text": "dhim , , , dhim , ta",
+        "list": [
+            "4_dhim , , ,",
+            "2_dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 129,
+        "pattern": 7,
+        "formula": "(4)(3)",
+        "text": "dhim , , , dhim , ,",
+        "list": [
+            "4_dhim , , ,",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 130,
+        "pattern": 7,
+        "formula": "(5)2",
+        "text": "dhim , , , , ta ka",
+        "list": [
+            "5_dhim , , , ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 131,
+        "pattern": 7,
+        "formula": "(5)(2)",
+        "text": "dhim , , , , dhim ,",
+        "list": [
+            "5_dhim , , , ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 132,
+        "pattern": 7,
+        "formula": "(6)1",
+        "text": "dhim , , , , , ta",
+        "list": [
+            "6_dhim , , , , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 133,
+        "pattern": 7,
+        "formula": "(7)",
+        "text": "dhim , , , , , ,",
+        "list": [
+            "7_dhim , , , , , ,"
+        ]
+    },
+    {
+        "sno": 134,
+        "pattern": 7,
+        "formula": "(, , , , , , ,)",
+        "text": ", , , , , , ,",
+        "list": [
+            "7_, , , , , , ,"
+        ]
+    },
+    {
+        "sno": 135,
+        "pattern": 8,
+        "formula": "8",
+        "text": "ta ka dhi mi ta ka ja nu",
+        "list": [
+            "4_ta ka dhi mi",
+            "4_ta ka ja nu"
+        ]
+    },
+    {
+        "sno": 136,
+        "pattern": 8,
+        "formula": "6(2)",
+        "text": "ta ka dhi mi ta ka dhim ,",
+        "list": [
+            "4_ta ka dhi mi",
+            "2_ta ka",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 137,
+        "pattern": 8,
+        "formula": "5(2)1",
+        "text": "ta dhi gi na ta dhim , ta",
+        "list": [
+            "5_ta dhi gi na ta",
+            "2_dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 138,
+        "pattern": 8,
+        "formula": "5(3)",
+        "text": "ta dhi gi na ta dhim , ,",
+        "list": [
+            "5_ta dhi gi na ta",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 139,
+        "pattern": 8,
+        "formula": "4(2)2",
+        "text": "ta ka dhi na dhim , ta ka",
+        "list": [
+            "4_ta ka dhi na",
+            "2_dhim ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 140,
+        "pattern": 8,
+        "formula": "4(2)(2)",
+        "text": "ta ka dhi na ta , dhim ,",
+        "list": [
+            "4_ta ka dhi na",
+            "2_ta ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 141,
+        "pattern": 8,
+        "formula": "4(3)1",
+        "text": "ta ka dhi na dhim , , ta",
+        "list": [
+            "4_ta ka dhi na",
+            "3_dhim , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 142,
+        "pattern": 8,
+        "formula": "4(4)",
+        "text": "ta ka dhi na dhim , , ,",
+        "list": [
+            "4_ta ka dhi na",
+            "4_dhim , , ,"
+        ]
+    },
+    {
+        "sno": 143,
+        "pattern": 8,
+        "formula": "3(2)21",
+        "text": "ta ki ta dhim , ta ka ta",
+        "list": [
+            "3_ta ki ta",
+            "2_dhim ,",
+            "2_ta ka",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 144,
+        "pattern": 8,
+        "formula": "3(2)1(2)",
+        "text": "ta ki ta dhim , ta dhim ,",
+        "list": [
+            "3_ta ki ta",
+            "2_dhim ,",
+            "3_ta dhim ,"
+        ]
+    },
+    {
+        "sno": 145,
+        "pattern": 8,
+        "formula": "3(2)(2)1",
+        "text": "ta ki ta ta , dhim , ta",
+        "list": [
+            "3_ta ki ta",
+            "2_ta ,",
+            "2_dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 146,
+        "pattern": 8,
+        "formula": "3(2)(3)",
+        "text": "ta ki ta ta , dhim , ,",
+        "list": [
+            "3_ta ki ta",
+            "2_ta ,",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 147,
+        "pattern": 8,
+        "formula": "3(3)2",
+        "text": "ta ki ta dhim , , ta ka",
+        "list": [
+            "3_ta ki ta",
+            "3_dhim , ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 148,
+        "pattern": 8,
+        "formula": "3(3)(2)",
+        "text": "ta ki ta ta , , dhim ,",
+        "list": [
+            "3_ta ki ta",
+            "3_ta , ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 149,
+        "pattern": 8,
+        "formula": "3(4)1",
+        "text": "ta ki ta dhim , , , ta",
+        "list": [
+            "3_ta ki ta",
+            "4_dhim , , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 150,
+        "pattern": 8,
+        "formula": "3(5)",
+        "text": "ta ki ta dhim , , , ,",
+        "list": [
+            "3_ta ki ta",
+            "5_dhim , , , ,"
+        ]
+    },
+    {
+        "sno": 151,
+        "pattern": 8,
+        "formula": "2(2)4",
+        "text": "ta ka dhim , ta ka dhi na",
+        "list": [
+            "2_ta ka",
+            "2_dhim ,",
+            "4_ta ka dhi na"
+        ]
+    },
+    {
+        "sno": 152,
+        "pattern": 8,
+        "formula": "2(2)11(2)",
+        "text": "ta ka dhim , ta ta dhim ,",
+        "list": [
+            "2_ta ka",
+            "2_dhim ,",
+            "1_ta",
+            "3_ta dhim ,"
+        ]
+    },
+    {
+        "sno": 153,
+        "pattern": 8,
+        "formula": "2(2)1(2)1",
+        "text": "ta ka dhim , ta dhim , ta",
+        "list": [
+            "2_ta ka",
+            "2_dhim ,",
+            "3_ta dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 154,
+        "pattern": 8,
+        "formula": "2(2)1(3)",
+        "text": "ta ka dhim , ta dhim , ,",
+        "list": [
+            "2_ta ka",
+            "2_dhim ,",
+            "4_ta dhim , ,"
+        ]
+    },
+    {
+        "sno": 155,
+        "pattern": 8,
+        "formula": "2(2)(2)11",
+        "text": "ta ka ta , dhim , ta ta",
+        "list": [
+            "2_ta ka",
+            "2_ta ,",
+            "2_dhim ,",
+            "1_ta",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 156,
+        "pattern": 8,
+        "formula": "2(2)(2)(2)",
+        "text": "ta ka ta , ki , ta ,",
+        "list": [
+            "2_ta ka",
+            "2_ta ,",
+            "2_ki ,",
+            "2_ta ,"
+        ]
+    },
+    {
+        "sno": 157,
+        "pattern": 8,
+        "formula": "2(2)(3)1",
+        "text": "ta ka ta , dhim , , ta",
+        "list": [
+            "2_ta ka",
+            "2_ta ,",
+            "3_dhim , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 158,
+        "pattern": 8,
+        "formula": "2(2)(4)",
+        "text": "ta ka dhim , dhim , , ,",
+        "list": [
+            "2_ta ka",
+            "2_dhim ,",
+            "4_dhim , , ,"
+        ]
+    },
+    {
+        "sno": 159,
+        "pattern": 8,
+        "formula": "2(3)3",
+        "text": "ta ka dhim , , ta ki ta",
+        "list": [
+            "2_ta ka",
+            "3_dhim , ,",
+            "3_ta ki ta"
+        ]
+    },
+    {
+        "sno": 160,
+        "pattern": 8,
+        "formula": "2(3)1(2)",
+        "text": "ta ka dhim , , ta dhim ,",
+        "list": [
+            "2_ta ka",
+            "3_dhim , ,",
+            "3_ta dhim ,"
+        ]
+    },
+    {
+        "sno": 161,
+        "pattern": 8,
+        "formula": "2(3)(2)1",
+        "text": "ta ka ta , , dhim , ta",
+        "list": [
+            "2_ta ka",
+            "3_ta , ,",
+            "2_dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 162,
+        "pattern": 8,
+        "formula": "2(3)(3)",
+        "text": "ta ka ta , , dhim , ,",
+        "list": [
+            "2_ta ka",
+            "3_ta , ,",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 163,
+        "pattern": 8,
+        "formula": "2(4)11",
+        "text": "ta ka dhim , , , ta ta",
+        "list": [
+            "2_ta ka",
+            "4_dhim , , ,",
+            "1_ta",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 164,
+        "pattern": 8,
+        "formula": "2(4)(2)",
+        "text": "ta ka dhim , , , dhim ,",
+        "list": [
+            "2_ta ka",
+            "4_dhim , , ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 165,
+        "pattern": 8,
+        "formula": "2(5)1",
+        "text": "ta ka dhim , , , , ta",
+        "list": [
+            "2_ta ka",
+            "5_dhim , , , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 166,
+        "pattern": 8,
+        "formula": "2(6)",
+        "text": "ta ka dhim , , , , ,",
+        "list": [
+            "2_ta ka",
+            "6_dhim , , , , ,"
+        ]
+    },
+    {
+        "sno": 167,
+        "pattern": 8,
+        "formula": "1(2)5",
+        "text": "ta dhim , ta dhi gi na ta",
+        "list": [
+            "3_ta dhim ,",
+            "5_ta dhi gi na ta"
+        ]
+    },
+    {
+        "sno": 168,
+        "pattern": 8,
+        "formula": "1(2)3(2)",
+        "text": "ta dhim , ta ki ta dhim ,",
+        "list": [
+            "3_ta dhim ,",
+            "3_ta ki ta",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 169,
+        "pattern": 8,
+        "formula": "1(2)2(2)1",
+        "text": "ta dhim , ta ka dhim , ta",
+        "list": [
+            "3_ta dhim ,",
+            "2_ta ka",
+            "2_dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 170,
+        "pattern": 8,
+        "formula": "1(2)2(3)",
+        "text": "ta dhim , ta ka dhim , ,",
+        "list": [
+            "3_ta dhim ,",
+            "2_ta ka",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 171,
+        "pattern": 8,
+        "formula": "1(2)1(2)2",
+        "text": "ta dhim , ta dhim , ta ka",
+        "list": [
+            "3_ta dhim ,",
+            "1_ta",
+            "2_dhim ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 172,
+        "pattern": 8,
+        "formula": "1(2)1(2)(2)",
+        "text": "ta dhim , ta ta , dhim ,",
+        "list": [
+            "3_ta dhim ,",
+            "1_ta",
+            "2_ta ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 173,
+        "pattern": 8,
+        "formula": "1(2)1(3)1",
+        "text": "ta dhim , ta dhim , , ta",
+        "list": [
+            "3_ta dhim ,",
+            "1_ta",
+            "3_dhim , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 174,
+        "pattern": 8,
+        "formula": "1(2)1(4)",
+        "text": "ta dhim , ta dhim , , ,",
+        "list": [
+            "3_ta dhim ,",
+            "1_ta",
+            "4_dhim , , ,"
+        ]
+    },
+    {
+        "sno": 175,
+        "pattern": 8,
+        "formula": "1(2)(2)3",
+        "text": "ta ta , dhim , ta ki ta",
+        "list": [
+            "1_ta",
+            "2_ta ,",
+            "2_dhim ,",
+            "3_ta ki ta"
+        ]
+    },
+    {
+        "sno": 176,
+        "pattern": 8,
+        "formula": "1(2)(2)1(2)",
+        "text": "ta ta , dhim , ta dhim ,",
+        "list": [
+            "1_ta",
+            "2_ta ,",
+            "2_dhim ,",
+            "3_ta dhim ,"
+        ]
+    },
+    {
+        "sno": 177,
+        "pattern": 8,
+        "formula": "1(2)(2)(2)1",
+        "text": "ta ta , ki , ta , ta",
+        "list": [
+            "1_ta",
+            "2_ta ,",
+            "2_ki ,",
+            "2_ta ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 178,
+        "pattern": 8,
+        "formula": "1(2)(2)(3)",
+        "text": "ta ta , dhim , dhim , ,",
+        "list": [
+            "1_ta",
+            "2_ta ,",
+            "2_dhim ,",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 179,
+        "pattern": 8,
+        "formula": "1(2)(3)2",
+        "text": "ta ta , dhim , , ta ka",
+        "list": [
+            "1_ta",
+            "2_ta ,",
+            "3_dhim , ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 180,
+        "pattern": 8,
+        "formula": "1(2)(3)(2)",
+        "text": "ta ta , dhim , , dhim ,",
+        "list": [
+            "1_ta",
+            "2_ta ,",
+            "3_dhim , ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 181,
+        "pattern": 8,
+        "formula": "1(2)(4)1",
+        "text": "ta dhim , dhim , , , ta",
+        "list": [
+            "3_ta dhim ,",
+            "4_dhim , , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 182,
+        "pattern": 8,
+        "formula": "1(2)(5)",
+        "text": "ta dhim , dhim , , , ,",
+        "list": [
+            "3_ta dhim ,",
+            "5_dhim , , , ,"
+        ]
+    },
+    {
+        "sno": 183,
+        "pattern": 8,
+        "formula": "1(3)4",
+        "text": "ta dhim , , ta ka dhi na",
+        "list": [
+            "4_ta dhim , ,",
+            "4_ta ka dhi na"
+        ]
+    },
+    {
+        "sno": 184,
+        "pattern": 8,
+        "formula": "1(3)2(2)",
+        "text": "ta dhim , , ta ka dhim ,",
+        "list": [
+            "4_ta dhim , ,",
+            "2_ta ka",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 185,
+        "pattern": 8,
+        "formula": "1(3)1(2)1",
+        "text": "ta dhim , , ta dhim , ta",
+        "list": [
+            "4_ta dhim , ,",
+            "3_ta dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 186,
+        "pattern": 8,
+        "formula": "1(3)1(3)",
+        "text": "ta dhim , , ta dhim , ,",
+        "list": [
+            "4_ta dhim , ,",
+            "1_ta",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 187,
+        "pattern": 8,
+        "formula": "1(3)(2)2",
+        "text": "ta ta , , dhim , ta ka",
+        "list": [
+            "1_ta",
+            "3_ta , ,",
+            "2_dhim ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 188,
+        "pattern": 8,
+        "formula": "1(3)(2)(2)",
+        "text": "ta dhim , , ta , dhim ,",
+        "list": [
+            "4_ta dhim , ,",
+            "2_ta ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 189,
+        "pattern": 8,
+        "formula": "1(3)(3)1",
+        "text": "ta ta , , dhim , , ta",
+        "list": [
+            "1_ta",
+            "3_ta , ,",
+            "3_dhim , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 190,
+        "pattern": 8,
+        "formula": "1(3)(4)",
+        "text": "ta dhim , , dhim , , ,",
+        "list": [
+            "4_ta dhim , ,",
+            "4_dhim , , ,"
+        ]
+    },
+    {
+        "sno": 191,
+        "pattern": 8,
+        "formula": "1(4)3",
+        "text": "ta dhim , , , ta ki ta",
+        "list": [
+            "5_ta dhim , , ,",
+            "3_ta ki ta"
+        ]
+    },
+    {
+        "sno": 192,
+        "pattern": 8,
+        "formula": "1(4)1(2)",
+        "text": "ta dhim , , , ta dhim ,",
+        "list": [
+            "5_ta dhim , , ,",
+            "1_ta",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 193,
+        "pattern": 8,
+        "formula": "1(4)(2)1",
+        "text": "ta dhim , , , dhim , ta",
+        "list": [
+            "5_ta dhim , , ,",
+            "2_dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 194,
+        "pattern": 8,
+        "formula": "1(4)(3)",
+        "text": "ta dhim , , , dhim , ,",
+        "list": [
+            "5_ta dhim , , ,",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 195,
+        "pattern": 8,
+        "formula": "1(5)2",
+        "text": "ta dhim , , , , ta ka",
+        "list": [
+            "6_ta dhim , , , ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 196,
+        "pattern": 8,
+        "formula": "1(5)(2)",
+        "text": "ta dhim , , , , dhim ,",
+        "list": [
+            "6_ta dhim , , , ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 197,
+        "pattern": 8,
+        "formula": "1(6)1",
+        "text": "ta dhim , , , , , ta",
+        "list": [
+            "7_ta dhim , , , , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 198,
+        "pattern": 8,
+        "formula": "1(7)",
+        "text": "ta dhim , , , , , ,",
+        "list": [
+            "8_ta dhim , , , , , ,"
+        ]
+    },
+    {
+        "sno": 199,
+        "pattern": 8,
+        "formula": "(2)6",
+        "text": "dhim , ta ka dhi mi ta ka",
+        "list": [
+            "2_dhim ,",
+            "4_ta ka dhi mi",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 200,
+        "pattern": 8,
+        "formula": "(2)4(2)",
+        "text": "dhim , ta ka dhi na dhim ,",
+        "list": [
+            "2_dhim ,",
+            "4_ta ka dhi na",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 201,
+        "pattern": 8,
+        "formula": "(2)3(2)1",
+        "text": "dhim , ta ki ta dhim , ta",
+        "list": [
+            "2_dhim ,",
+            "3_ta ki ta",
+            "2_dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 202,
+        "pattern": 8,
+        "formula": "(2)3(3)",
+        "text": "dhim , ta ki ta dhim , ,",
+        "list": [
+            "2_dhim ,",
+            "3_ta ki ta",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 203,
+        "pattern": 8,
+        "formula": "(2)2(2)11",
+        "text": "dhim , ta ka dhim , ta ta",
+        "list": [
+            "2_dhim ,",
+            "2_ta ka",
+            "2_dhim ,",
+            "1_ta",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 204,
+        "pattern": 8,
+        "formula": "(2)2(2)(2)",
+        "text": "dhim , ta ka ta , dhim ,",
+        "list": [
+            "2_dhim ,",
+            "2_ta ka",
+            "2_ta ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 205,
+        "pattern": 8,
+        "formula": "(2)2(3)1",
+        "text": "dhim , ta ka dhim , , ta",
+        "list": [
+            "2_dhim ,",
+            "2_ta ka",
+            "3_dhim , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 206,
+        "pattern": 8,
+        "formula": "(2)2(4)",
+        "text": "dhim , ta ka dhim , , ,",
+        "list": [
+            "2_dhim ,",
+            "2_ta ka",
+            "4_dhim , , ,"
+        ]
+    },
+    {
+        "sno": 207,
+        "pattern": 8,
+        "formula": "(2)1(2)3",
+        "text": "dhim , ta dhim , ta ki ta",
+        "list": [
+            "2_dhim ,",
+            "3_ta dhim ,",
+            "3_ta ki ta"
+        ]
+    },
+    {
+        "sno": 208,
+        "pattern": 8,
+        "formula": "(2)1(2)1(2)",
+        "text": "dhim , ta dhim , ta dhim ,",
+        "list": [
+            "2_dhim ,",
+            "3_ta dhim ,",
+            "1_ta",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 209,
+        "pattern": 8,
+        "formula": "(2)1(2)(2)1",
+        "text": "dhim , ta ta , dhim , ta",
+        "list": [
+            "2_dhim ,",
+            "1_ta",
+            "2_ta ,",
+            "2_dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 210,
+        "pattern": 8,
+        "formula": "(2)1(2)(3)",
+        "text": "dhim , ta ta , dhim , ,",
+        "list": [
+            "2_dhim ,",
+            "1_ta",
+            "2_ta ,",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 211,
+        "pattern": 8,
+        "formula": "(2)1(3)2",
+        "text": "dhim , ta dhim , , ta ka",
+        "list": [
+            "2_dhim ,",
+            "4_ta dhim , ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 212,
+        "pattern": 8,
+        "formula": "(2)1(3)(2)",
+        "text": "dhim , ta ta , , dhim ,",
+        "list": [
+            "2_dhim ,",
+            "1_ta",
+            "3_ta , ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 213,
+        "pattern": 8,
+        "formula": "(2)1(4)1",
+        "text": "dhim , ta dhim , , , ta",
+        "list": [
+            "2_dhim ,",
+            "5_ta dhim , , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 214,
+        "pattern": 8,
+        "formula": "(2)1(5)",
+        "text": "dhim , ta dhim , , , ,",
+        "list": [
+            "2_dhim ,",
+            "6_ta dhim , , , ,"
+        ]
+    },
+    {
+        "sno": 215,
+        "pattern": 8,
+        "formula": "(2)(2)4",
+        "text": "ta , dhim , ta ka dhi na",
+        "list": [
+            "2_ta ,",
+            "2_dhim ,",
+            "4_ta ka dhi na"
+        ]
+    },
+    {
+        "sno": 216,
+        "pattern": 8,
+        "formula": "(2)(2)2(2)",
+        "text": "ta , dhim , ta ka dhim ,",
+        "list": [
+            "2_ta ,",
+            "2_dhim ,",
+            "2_ta ka",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 217,
+        "pattern": 8,
+        "formula": "(2)(2)1(2)1",
+        "text": "ta , dhim , ta dhim , ta",
+        "list": [
+            "2_ta ,",
+            "2_dhim ,",
+            "3_ta dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 218,
+        "pattern": 8,
+        "formula": "(2)(2)1(3)",
+        "text": "ta , dhim , ta dhim , ,",
+        "list": [
+            "2_ta ,",
+            "2_dhim ,",
+            "4_ta dhim , ,"
+        ]
+    },
+    {
+        "sno": 219,
+        "pattern": 8,
+        "formula": "(2)(2)(2)2",
+        "text": "ta , ki , ta , ta ka",
+        "list": [
+            "2_ta ,",
+            "2_ki ,",
+            "2_ta ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 220,
+        "pattern": 8,
+        "formula": "(2)(2)(2)(2)",
+        "text": "ta , dhi , thom , nam ,",
+        "list": [
+            "2_ta ,",
+            "2_dhi ,",
+            "2_thom ,",
+            "2_nam ,"
+        ]
+    },
+    {
+        "sno": 221,
+        "pattern": 8,
+        "formula": "(2)(2)(3)1",
+        "text": "ta , dhim , dhim , , ta",
+        "list": [
+            "2_ta ,",
+            "2_dhim ,",
+            "3_dhim , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 222,
+        "pattern": 8,
+        "formula": "(2)(2)(4)",
+        "text": "ta , dhim , dhim , , ,",
+        "list": [
+            "2_ta ,",
+            "2_dhim ,",
+            "4_dhim , , ,"
+        ]
+    },
+    {
+        "sno": 223,
+        "pattern": 8,
+        "formula": "(2)(3)3",
+        "text": "ta , dhim , , ta ki ta",
+        "list": [
+            "2_ta ,",
+            "3_dhim , ,",
+            "3_ta ki ta"
+        ]
+    },
+    {
+        "sno": 224,
+        "pattern": 8,
+        "formula": "(2)(3)1(2)",
+        "text": "ta , dhim , , ta dhim ,",
+        "list": [
+            "2_ta ,",
+            "3_dhim , ,",
+            "3_ta dhim ,"
+        ]
+    },
+    {
+        "sno": 225,
+        "pattern": 8,
+        "formula": "(2)(3)(2)1",
+        "text": "ta , dhim , , dhim , ta",
+        "list": [
+            "2_ta ,",
+            "3_dhim , ,",
+            "2_dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 226,
+        "pattern": 8,
+        "formula": "(2)(3)(3)",
+        "text": "dhim , ta , , dhim , ,",
+        "list": [
+            "2_dhim ,",
+            "3_ta , ,",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 227,
+        "pattern": 8,
+        "formula": "(2)(4)2",
+        "text": "dhim , dhim , , , ta ka",
+        "list": [
+            "2_dhim ,",
+            "4_dhim , , ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 228,
+        "pattern": 8,
+        "formula": "(2)(4)(2)",
+        "text": "dhim , dhim , , , dhim ,",
+        "list": [
+            "2_dhim ,",
+            "4_dhim , , ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 229,
+        "pattern": 8,
+        "formula": "(2)(5)1",
+        "text": "dhim , dhim , , , , ta",
+        "list": [
+            "2_dhim ,",
+            "5_dhim , , , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 230,
+        "pattern": 8,
+        "formula": "(2)(6)",
+        "text": "dhim , dhim , , , , ,",
+        "list": [
+            "2_dhim ,",
+            "6_dhim , , , , ,"
+        ]
+    },
+    {
+        "sno": 231,
+        "pattern": 8,
+        "formula": "(3)5",
+        "text": "dhim , , ta dhi gi na ta",
+        "list": [
+            "3_dhim , ,",
+            "5_ta dhi gi na ta"
+        ]
+    },
+    {
+        "sno": 232,
+        "pattern": 8,
+        "formula": "(3)3(2)",
+        "text": "dhim , , ta ki ta dhim ,",
+        "list": [
+            "3_dhim , ,",
+            "3_ta ki ta",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 233,
+        "pattern": 8,
+        "formula": "(3)2(2)1",
+        "text": "dhim , , ta ka dhim , ta",
+        "list": [
+            "3_dhim , ,",
+            "2_ta ka",
+            "2_dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 234,
+        "pattern": 8,
+        "formula": "(3)2(3)",
+        "text": "dhim , , ta ka dhim , ,",
+        "list": [
+            "3_dhim , ,",
+            "2_ta ka",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 235,
+        "pattern": 8,
+        "formula": "(3)1(2)2",
+        "text": "dhim , , ta dhim , ta ka",
+        "list": [
+            "3_dhim , ,",
+            "3_ta dhim ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 236,
+        "pattern": 8,
+        "formula": "(3)1(2)(2)",
+        "text": "dhim , , ta ta , dhim ,",
+        "list": [
+            "3_dhim , ,",
+            "1_ta",
+            "2_ta ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 237,
+        "pattern": 8,
+        "formula": "(3)1(3)1",
+        "text": "dhim , , ta dhim , , ta",
+        "list": [
+            "3_dhim , ,",
+            "4_ta dhim , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 238,
+        "pattern": 8,
+        "formula": "(3)1(4)",
+        "text": "dhim , , ta dhim , , ,",
+        "list": [
+            "3_dhim , ,",
+            "5_ta dhim , , ,"
+        ]
+    },
+    {
+        "sno": 239,
+        "pattern": 8,
+        "formula": "(3)(2)3",
+        "text": "ta , , dhim , ta ki ta",
+        "list": [
+            "3_ta , ,",
+            "2_dhim ,",
+            "3_ta ki ta"
+        ]
+    },
+    {
+        "sno": 240,
+        "pattern": 8,
+        "formula": "(3)(2)1(2)",
+        "text": "ta , , dhim , ta dhim ,",
+        "list": [
+            "3_ta , ,",
+            "2_dhim ,",
+            "3_ta dhim ,"
+        ]
+    },
+    {
+        "sno": 241,
+        "pattern": 8,
+        "formula": "(3)(2)(2)1",
+        "text": "dhim , , ta , dhim , ta",
+        "list": [
+            "3_dhim , ,",
+            "2_ta ,",
+            "2_dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 242,
+        "pattern": 8,
+        "formula": "(3)(2)(3)",
+        "text": "dhim , , ta , dhim , ,",
+        "list": [
+            "3_dhim , ,",
+            "2_ta ,",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 243,
+        "pattern": 8,
+        "formula": "(3)(3)2",
+        "text": "ta , , dhim , , ta ka",
+        "list": [
+            "3_ta , ,",
+            "3_dhim , ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 244,
+        "pattern": 8,
+        "formula": "(3)(3)(2)",
+        "text": "ta , , dhim , , dhim ,",
+        "list": [
+            "3_ta , ,",
+            "3_dhim , ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 245,
+        "pattern": 8,
+        "formula": "(3)(4)1",
+        "text": "dhim , , dhim , , , ta",
+        "list": [
+            "3_dhim , ,",
+            "4_dhim , , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 246,
+        "pattern": 8,
+        "formula": "(3)(5)",
+        "text": "dhim , , dhim , , , ,",
+        "list": [
+            "3_dhim , ,",
+            "5_dhim , , , ,"
+        ]
+    },
+    {
+        "sno": 247,
+        "pattern": 8,
+        "formula": "(4)4",
+        "text": "dhim , , , ta ka dhi na",
+        "list": [
+            "4_dhim , , ,",
+            "4_ta ka dhi na"
+        ]
+    },
+    {
+        "sno": 248,
+        "pattern": 8,
+        "formula": "(4)2(2)",
+        "text": "dhim , , , ta ka dhim ,",
+        "list": [
+            "4_dhim , , ,",
+            "2_ta ka",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 249,
+        "pattern": 8,
+        "formula": "(4)1(2)1",
+        "text": "dhim , , , ta dhim , ta",
+        "list": [
+            "4_dhim , , ,",
+            "3_ta dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 250,
+        "pattern": 8,
+        "formula": "(4)1(3)",
+        "text": "dhim , , , ta dhim , ,",
+        "list": [
+            "4_dhim , , ,",
+            "4_ta dhim , ,"
+        ]
+    },
+    {
+        "sno": 251,
+        "pattern": 8,
+        "formula": "(4)(2)2",
+        "text": "dhim , , , dhim , ta ka",
+        "list": [
+            "4_dhim , , ,",
+            "2_dhim ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 252,
+        "pattern": 8,
+        "formula": "(4)(2)(2)",
+        "text": "dhim , , , ta , dhim ,",
+        "list": [
+            "4_dhim , , ,",
+            "2_ta ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 253,
+        "pattern": 8,
+        "formula": "(4)(3)1",
+        "text": "dhim , , , dhim , , ta",
+        "list": [
+            "4_dhim , , ,",
+            "3_dhim , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 254,
+        "pattern": 8,
+        "formula": "(4)(4)",
+        "text": "dhim , , , dhim , , ,",
+        "list": [
+            "4_dhim , , ,",
+            "4_dhim , , ,"
+        ]
+    },
+    {
+        "sno": 255,
+        "pattern": 8,
+        "formula": "(5)3",
+        "text": "dhim , , , , ta ki ta",
+        "list": [
+            "5_dhim , , , ,",
+            "3_ta ki ta"
+        ]
+    },
+    {
+        "sno": 256,
+        "pattern": 8,
+        "formula": "(5)1(2)",
+        "text": "dhim , , , , ta dhim ,",
+        "list": [
+            "5_dhim , , , ,",
+            "3_ta dhim ,"
+        ]
+    },
+    {
+        "sno": 257,
+        "pattern": 8,
+        "formula": "(5)(2)1",
+        "text": "dhim , , , , dhim , ta",
+        "list": [
+            "5_dhim , , , ,",
+            "2_dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 258,
+        "pattern": 8,
+        "formula": "(5)(3)",
+        "text": "dhim , , , , dhim , ,",
+        "list": [
+            "5_dhim , , , ,",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 259,
+        "pattern": 8,
+        "formula": "(6)2",
+        "text": "dhim , , , , , ta ka",
+        "list": [
+            "6_dhim , , , , ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 260,
+        "pattern": 8,
+        "formula": "(6)(2)",
+        "text": "dhim , , , , , dhim ,",
+        "list": [
+            "6_dhim , , , , ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 261,
+        "pattern": 8,
+        "formula": "(7)1",
+        "text": "dhim , , , , , , ta",
+        "list": [
+            "7_dhim , , , , , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 262,
+        "pattern": 8,
+        "formula": "(8)",
+        "text": "dhim , , , , , , ,",
+        "list": [
+            "8_dhim , , , , , , ,"
+        ]
+    },
+    {
+        "sno": 263,
+        "pattern": 8,
+        "formula": "(, , , , , , , ,)",
+        "text": ", , , , , , , ,",
+        "list": [
+            "8_, , , , , , , ,"
+        ]
+    },
+    {
+        "sno": 264,
+        "pattern": 9,
+        "formula": "9",
+        "text": "ta ka dhi mi ta ka ta ki ta",
+        "list": [
+            "4_ta ka dhi mi",
+            "5_ta ka ta ki ta"
+        ]
+    },
+    {
+        "sno": 265,
+        "pattern": 9,
+        "formula": "7(2)",
+        "text": "ta ka dhi mi ta ki ta dhim ,",
+        "list": [
+            "4_ta ka dhi mi",
+            "3_ta ki ta",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 266,
+        "pattern": 9,
+        "formula": "6(2)1",
+        "text": "ta ka dhi mi ta ka dhim , ta",
+        "list": [
+            "4_ta ka dhi mi",
+            "2_ta ka",
+            "2_dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 267,
+        "pattern": 9,
+        "formula": "6(3)",
+        "text": "ta ka dhi mi ta ka dhim , ,",
+        "list": [
+            "4_ta ka dhi mi",
+            "2_ta ka",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 268,
+        "pattern": 9,
+        "formula": "5(2)2",
+        "text": "ta dhi gi na ta dhim , ta ka",
+        "list": [
+            "5_ta dhi gi na ta",
+            "2_dhim ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 269,
+        "pattern": 9,
+        "formula": "5(2)(2)",
+        "text": "ta dhi gi na ta ta , dhim ,",
+        "list": [
+            "5_ta dhi gi na ta",
+            "2_ta ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 270,
+        "pattern": 9,
+        "formula": "5(3)1",
+        "text": "ta dhi gi na ta dhim , , ta",
+        "list": [
+            "5_ta dhi gi na ta",
+            "3_dhim , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 271,
+        "pattern": 9,
+        "formula": "5(4)",
+        "text": "ta dhi gi na ta dhim , , ,",
+        "list": [
+            "5_ta dhi gi na ta",
+            "4_dhim , , ,"
+        ]
+    },
+    {
+        "sno": 272,
+        "pattern": 9,
+        "formula": "4(2)3",
+        "text": "ta ka dhi na dhim , ta ki ta",
+        "list": [
+            "4_ta ka dhi na",
+            "2_dhim ,",
+            "3_ta ki ta"
+        ]
+    },
+    {
+        "sno": 273,
+        "pattern": 9,
+        "formula": "4(2)1(2)",
+        "text": "ta ka dhi na dhim , ta dhim ,",
+        "list": [
+            "4_ta ka dhi na",
+            "2_dhim ,",
+            "3_ta dhim ,"
+        ]
+    },
+    {
+        "sno": 274,
+        "pattern": 9,
+        "formula": "4(2)(2)1",
+        "text": "ta ka dhi na ta , dhim , ta",
+        "list": [
+            "4_ta ka dhi na",
+            "2_ta ,",
+            "2_dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 275,
+        "pattern": 9,
+        "formula": "4(2)(3)",
+        "text": "ta ka dhi na ta , dhim , ,",
+        "list": [
+            "4_ta ka dhi na",
+            "2_ta ,",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 276,
+        "pattern": 9,
+        "formula": "4(3)2",
+        "text": "ta ka dhi na dhim , , ta ka",
+        "list": [
+            "4_ta ka dhi na",
+            "3_dhim , ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 277,
+        "pattern": 9,
+        "formula": "4(3)(2)",
+        "text": "ta ka dhi na ta , , dhim ,",
+        "list": [
+            "4_ta ka dhi na",
+            "3_ta , ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 278,
+        "pattern": 9,
+        "formula": "4(4)1",
+        "text": "ta ka dhi na dhim , , , ta",
+        "list": [
+            "4_ta ka dhi na",
+            "4_dhim , , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 279,
+        "pattern": 9,
+        "formula": "4(5)",
+        "text": "ta ka dhi na dhim , , , ,",
+        "list": [
+            "4_ta ka dhi na",
+            "5_dhim , , , ,"
+        ]
+    },
+    {
+        "sno": 280,
+        "pattern": 9,
+        "formula": "3(2)4",
+        "text": "ta ki ta dhim , ta ka dhi na",
+        "list": [
+            "3_ta ki ta",
+            "2_dhim ,",
+            "4_ta ka dhi na"
+        ]
+    },
+    {
+        "sno": 281,
+        "pattern": 9,
+        "formula": "3(2)2(2)",
+        "text": "ta ki ta dhim , ta ka dhim ,",
+        "list": [
+            "3_ta ki ta",
+            "2_dhim ,",
+            "2_ta ka",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 282,
+        "pattern": 9,
+        "formula": "3(2)1(2)1",
+        "text": "ta ki ta dhim , ta dhim , ta",
+        "list": [
+            "3_ta ki ta",
+            "2_dhim ,",
+            "3_ta dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 283,
+        "pattern": 9,
+        "formula": "3(2)1(3)",
+        "text": "ta ki ta dhim , ta dhim , ,",
+        "list": [
+            "3_ta ki ta",
+            "2_dhim ,",
+            "4_ta dhim , ,"
+        ]
+    },
+    {
+        "sno": 284,
+        "pattern": 9,
+        "formula": "3(2)(2)2",
+        "text": "ta ki ta ta , dhim , ta ka",
+        "list": [
+            "3_ta ki ta",
+            "2_ta ,",
+            "2_dhim ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 285,
+        "pattern": 9,
+        "formula": "3(2)(2)(2)",
+        "text": "ta ki ta ta , ki , ta ,",
+        "list": [
+            "3_ta ki ta",
+            "2_ta ,",
+            "2_ki ,",
+            "2_ta ,"
+        ]
+    },
+    {
+        "sno": 286,
+        "pattern": 9,
+        "formula": "3(2)(3)1",
+        "text": "ta ki ta ta , dhim , , ta",
+        "list": [
+            "3_ta ki ta",
+            "2_ta ,",
+            "3_dhim , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 287,
+        "pattern": 9,
+        "formula": "3(2)(4)",
+        "text": "ta ki ta dhim , dhim , , ,",
+        "list": [
+            "3_ta ki ta",
+            "2_dhim ,",
+            "4_dhim , , ,"
+        ]
+    },
+    {
+        "sno": 288,
+        "pattern": 9,
+        "formula": "3(3)21",
+        "text": "ta ki ta dhim , , ta ka ta",
+        "list": [
+            "3_ta ki ta",
+            "3_dhim , ,",
+            "2_ta ka",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 289,
+        "pattern": 9,
+        "formula": "3(3)1(2)",
+        "text": "ta ki ta dhim , , ta dhim ,",
+        "list": [
+            "3_ta ki ta",
+            "3_dhim , ,",
+            "3_ta dhim ,"
+        ]
+    },
+    {
+        "sno": 290,
+        "pattern": 9,
+        "formula": "3(3)(2)1",
+        "text": "ta ki ta ta , , dhim , ta",
+        "list": [
+            "3_ta ki ta",
+            "3_ta , ,",
+            "2_dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 291,
+        "pattern": 9,
+        "formula": "3(3)(3)",
+        "text": "ta ki ta ta , , dhim , ,",
+        "list": [
+            "3_ta ki ta",
+            "3_ta , ,",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 292,
+        "pattern": 9,
+        "formula": "3(4)2",
+        "text": "ta ki ta dhim , , , ta ka",
+        "list": [
+            "3_ta ki ta",
+            "4_dhim , , ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 293,
+        "pattern": 9,
+        "formula": "3(4)(2)",
+        "text": "ta ki ta dhim , , , dhim ,",
+        "list": [
+            "3_ta ki ta",
+            "4_dhim , , ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 294,
+        "pattern": 9,
+        "formula": "3(5)1",
+        "text": "ta ki ta dhim , , , , ta",
+        "list": [
+            "3_ta ki ta",
+            "5_dhim , , , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 295,
+        "pattern": 9,
+        "formula": "3(6)",
+        "text": "ta ki ta dhim , , , , ,",
+        "list": [
+            "3_ta ki ta",
+            "6_dhim , , , , ,"
+        ]
+    },
+    {
+        "sno": 296,
+        "pattern": 9,
+        "formula": "2(2)5",
+        "text": "ta ka dhim , ta dhi gi na ta",
+        "list": [
+            "2_ta ka",
+            "2_dhim ,",
+            "5_ta dhi gi na ta"
+        ]
+    },
+    {
+        "sno": 297,
+        "pattern": 9,
+        "formula": "2(2)3(2)",
+        "text": "ta ka dhim , ta ki ta dhim ,",
+        "list": [
+            "2_ta ka",
+            "2_dhim ,",
+            "3_ta ki ta",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 298,
+        "pattern": 9,
+        "formula": "2(2)11(2)1",
+        "text": "ta ka dhim , ta ta dhim , ta",
+        "list": [
+            "2_ta ka",
+            "2_dhim ,",
+            "1_ta",
+            "3_ta dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 299,
+        "pattern": 9,
+        "formula": "2(2)11(3)",
+        "text": "ta ka dhim , ta ta dhim , ,",
+        "list": [
+            "2_ta ka",
+            "2_dhim ,",
+            "1_ta",
+            "4_ta dhim , ,"
+        ]
+    },
+    {
+        "sno": 300,
+        "pattern": 9,
+        "formula": "2(2)1(2)11",
+        "text": "ta ka dhim , ta dhim , ta ta",
+        "list": [
+            "2_ta ka",
+            "2_dhim ,",
+            "3_ta dhim ,",
+            "1_ta",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 301,
+        "pattern": 9,
+        "formula": "2(2)1(2)(2)",
+        "text": "ta ka dhim , ta ta , dhim ,",
+        "list": [
+            "2_ta ka",
+            "2_dhim ,",
+            "1_ta",
+            "2_ta ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 302,
+        "pattern": 9,
+        "formula": "2(2)1(3)1",
+        "text": "ta ka dhim , ta dhim , , ta",
+        "list": [
+            "2_ta ka",
+            "2_dhim ,",
+            "4_ta dhim , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 303,
+        "pattern": 9,
+        "formula": "2(2)1(4)",
+        "text": "ta ka dhim , ta dhim , , ,",
+        "list": [
+            "2_ta ka",
+            "2_dhim ,",
+            "5_ta dhim , , ,"
+        ]
+    },
+    {
+        "sno": 304,
+        "pattern": 9,
+        "formula": "2(2)(2)3",
+        "text": "ta ka ta , dhim , ta ki ta",
+        "list": [
+            "2_ta ka",
+            "2_ta ,",
+            "2_dhim ,",
+            "3_ta ki ta"
+        ]
+    },
+    {
+        "sno": 305,
+        "pattern": 9,
+        "formula": "2(2)(2)1(2)",
+        "text": "ta ka ta , dhim , ta dhim ,",
+        "list": [
+            "2_ta ka",
+            "2_ta ,",
+            "2_dhim ,",
+            "3_ta dhim ,"
+        ]
+    },
+    {
+        "sno": 306,
+        "pattern": 9,
+        "formula": "2(2)(2)(2)1",
+        "text": "ta ka ta , ki , ta , ta",
+        "list": [
+            "2_ta ka",
+            "2_ta ,",
+            "2_ki ,",
+            "2_ta ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 307,
+        "pattern": 9,
+        "formula": "2(2)(2)(3)",
+        "text": "ta ka ta , dhim , dhim , ,",
+        "list": [
+            "2_ta ka",
+            "2_ta ,",
+            "2_dhim ,",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 308,
+        "pattern": 9,
+        "formula": "2(2)(3)11",
+        "text": "ta ka ta , dhim , , ta ta",
+        "list": [
+            "2_ta ka",
+            "2_ta ,",
+            "3_dhim , ,",
+            "1_ta",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 309,
+        "pattern": 9,
+        "formula": "2(2)(3)(2)",
+        "text": "ta ka ta , dhim , , dhim ,",
+        "list": [
+            "2_ta ka",
+            "2_ta ,",
+            "3_dhim , ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 310,
+        "pattern": 9,
+        "formula": "2(2)(4)1",
+        "text": "ta ka dhim , dhim , , , ta",
+        "list": [
+            "2_ta ka",
+            "2_dhim ,",
+            "4_dhim , , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 311,
+        "pattern": 9,
+        "formula": "2(2)(5)",
+        "text": "ta ka dhim , dhim , , , ,",
+        "list": [
+            "2_ta ka",
+            "2_dhim ,",
+            "5_dhim , , , ,"
+        ]
+    },
+    {
+        "sno": 312,
+        "pattern": 9,
+        "formula": "2(3)4",
+        "text": "ta ka dhim , , ta ka dhi na",
+        "list": [
+            "2_ta ka",
+            "3_dhim , ,",
+            "4_ta ka dhi na"
+        ]
+    },
+    {
+        "sno": 313,
+        "pattern": 9,
+        "formula": "2(3)11(2)",
+        "text": "ta ka dhim , , ta ta dhim ,",
+        "list": [
+            "2_ta ka",
+            "3_dhim , ,",
+            "1_ta",
+            "3_ta dhim ,"
+        ]
+    },
+    {
+        "sno": 314,
+        "pattern": 9,
+        "formula": "2(3)1(2)1",
+        "text": "ta ka dhim , , ta dhim , ta",
+        "list": [
+            "2_ta ka",
+            "3_dhim , ,",
+            "3_ta dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 315,
+        "pattern": 9,
+        "formula": "2(3)1(3)",
+        "text": "ta ka dhim , , ta dhim , ,",
+        "list": [
+            "2_ta ka",
+            "3_dhim , ,",
+            "4_ta dhim , ,"
+        ]
+    },
+    {
+        "sno": 316,
+        "pattern": 9,
+        "formula": "2(3)(2)11",
+        "text": "ta ka ta , , dhim , ta ta",
+        "list": [
+            "2_ta ka",
+            "3_ta , ,",
+            "2_dhim ,",
+            "1_ta",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 317,
+        "pattern": 9,
+        "formula": "2(3)(2)(2)",
+        "text": "ta ka dhim , , ta , dhim ,",
+        "list": [
+            "2_ta ka",
+            "3_dhim , ,",
+            "2_ta ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 318,
+        "pattern": 9,
+        "formula": "2(3)(3)1",
+        "text": "ta ka ta , , dhim , , ta",
+        "list": [
+            "2_ta ka",
+            "3_ta , ,",
+            "3_dhim , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 319,
+        "pattern": 9,
+        "formula": "2(3)(4)",
+        "text": "ta ka dhim , , dhim , , ,",
+        "list": [
+            "2_ta ka",
+            "3_dhim , ,",
+            "4_dhim , , ,"
+        ]
+    },
+    {
+        "sno": 320,
+        "pattern": 9,
+        "formula": "2(4)3",
+        "text": "ta ka dhim , , , ta ki ta",
+        "list": [
+            "2_ta ka",
+            "4_dhim , , ,",
+            "3_ta ki ta"
+        ]
+    },
+    {
+        "sno": 321,
+        "pattern": 9,
+        "formula": "2(4)1(2)",
+        "text": "ta ka dhim , , , ta dhim ,",
+        "list": [
+            "2_ta ka",
+            "4_dhim , , ,",
+            "3_ta dhim ,"
+        ]
+    },
+    {
+        "sno": 322,
+        "pattern": 9,
+        "formula": "2(4)(2)1",
+        "text": "ta ka dhim , , , dhim , ta",
+        "list": [
+            "2_ta ka",
+            "4_dhim , , ,",
+            "2_dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 323,
+        "pattern": 9,
+        "formula": "2(4)(3)",
+        "text": "ta ka dhim , , , dhim , ,",
+        "list": [
+            "2_ta ka",
+            "4_dhim , , ,",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 324,
+        "pattern": 9,
+        "formula": "2(5)11",
+        "text": "ta ka dhim , , , , ta ta",
+        "list": [
+            "2_ta ka",
+            "5_dhim , , , ,",
+            "1_ta",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 325,
+        "pattern": 9,
+        "formula": "2(5)(2)",
+        "text": "ta ka dhim , , , , dhim ,",
+        "list": [
+            "2_ta ka",
+            "5_dhim , , , ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 326,
+        "pattern": 9,
+        "formula": "2(6)1",
+        "text": "ta ka dhim , , , , , ta",
+        "list": [
+            "2_ta ka",
+            "6_dhim , , , , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 327,
+        "pattern": 9,
+        "formula": "2(7)",
+        "text": "ta ka dhim , , , , , ,",
+        "list": [
+            "2_ta ka",
+            "7_dhim , , , , , ,"
+        ]
+    },
+    {
+        "sno": 328,
+        "pattern": 9,
+        "formula": "1(2)6",
+        "text": "ta dhim , ta ka dhi mi ta ka",
+        "list": [
+            "3_ta dhim ,",
+            "4_ta ka dhi mi",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 329,
+        "pattern": 9,
+        "formula": "1(2)4(2)",
+        "text": "ta dhim , ta ka dhi na dhim ,",
+        "list": [
+            "3_ta dhim ,",
+            "4_ta ka dhi na",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 330,
+        "pattern": 9,
+        "formula": "1(2)3(2)1",
+        "text": "ta dhim , ta ki ta dhim , ta",
+        "list": [
+            "3_ta dhim ,",
+            "3_ta ki ta",
+            "2_dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 331,
+        "pattern": 9,
+        "formula": "1(2)3(3)",
+        "text": "ta dhim , ta ki ta dhim , ,",
+        "list": [
+            "3_ta dhim ,",
+            "3_ta ki ta",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 332,
+        "pattern": 9,
+        "formula": "1(2)2(2)11",
+        "text": "ta dhim , ta ka dhim , ta ta",
+        "list": [
+            "3_ta dhim ,",
+            "2_ta ka",
+            "2_dhim ,",
+            "1_ta",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 333,
+        "pattern": 9,
+        "formula": "1(2)2(2)(2)",
+        "text": "ta dhim , ta ka ta , dhim ,",
+        "list": [
+            "3_ta dhim ,",
+            "2_ta ka",
+            "2_ta ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 334,
+        "pattern": 9,
+        "formula": "1(2)2(3)1",
+        "text": "ta dhim , ta ka dhim , , ta",
+        "list": [
+            "3_ta dhim ,",
+            "2_ta ka",
+            "3_dhim , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 335,
+        "pattern": 9,
+        "formula": "1(2)2(4)",
+        "text": "ta dhim , ta ka dhim , , ,",
+        "list": [
+            "3_ta dhim ,",
+            "2_ta ka",
+            "4_dhim , , ,"
+        ]
+    },
+    {
+        "sno": 336,
+        "pattern": 9,
+        "formula": "1(2)1(2)3",
+        "text": "ta dhim , ta dhim , ta ki ta",
+        "list": [
+            "3_ta dhim ,",
+            "1_ta",
+            "2_dhim ,",
+            "3_ta ki ta"
+        ]
+    },
+    {
+        "sno": 337,
+        "pattern": 9,
+        "formula": "1(2)1(2)1(2)",
+        "text": "ta dhim , ta dhim , ta dhim ,",
+        "list": [
+            "3_ta dhim ,",
+            "1_ta",
+            "2_dhim ,",
+            "3_ta dhim ,"
+        ]
+    },
+    {
+        "sno": 338,
+        "pattern": 9,
+        "formula": "1(2)1(2)(2)1",
+        "text": "ta dhim , ta ta , dhim , ta",
+        "list": [
+            "3_ta dhim ,",
+            "1_ta",
+            "2_ta ,",
+            "2_dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 339,
+        "pattern": 9,
+        "formula": "1(2)1(2)(3)",
+        "text": "ta dhim , ta ta , dhim , ,",
+        "list": [
+            "3_ta dhim ,",
+            "1_ta",
+            "2_ta ,",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 340,
+        "pattern": 9,
+        "formula": "1(2)1(3)2",
+        "text": "ta dhim , ta dhim , , ta ka",
+        "list": [
+            "3_ta dhim ,",
+            "1_ta",
+            "3_dhim , ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 341,
+        "pattern": 9,
+        "formula": "1(2)1(3)(2)",
+        "text": "ta dhim , ta ta , , dhim ,",
+        "list": [
+            "3_ta dhim ,",
+            "1_ta",
+            "3_ta , ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 342,
+        "pattern": 9,
+        "formula": "1(2)1(4)1",
+        "text": "ta dhim , ta dhim , , , ta",
+        "list": [
+            "3_ta dhim ,",
+            "1_ta",
+            "4_dhim , , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 343,
+        "pattern": 9,
+        "formula": "1(2)1(5)",
+        "text": "ta dhim , ta dhim , , , ,",
+        "list": [
+            "3_ta dhim ,",
+            "1_ta",
+            "5_dhim , , , ,"
+        ]
+    },
+    {
+        "sno": 344,
+        "pattern": 9,
+        "formula": "1(2)(2)4",
+        "text": "ta ta , dhim , ta ka dhi na",
+        "list": [
+            "1_ta",
+            "2_ta ,",
+            "2_dhim ,",
+            "4_ta ka dhi na"
+        ]
+    },
+    {
+        "sno": 345,
+        "pattern": 9,
+        "formula": "1(2)(2)2(2)",
+        "text": "ta ta , dhim , ta ka dhim ,",
+        "list": [
+            "1_ta",
+            "2_ta ,",
+            "2_dhim ,",
+            "2_ta ka",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 346,
+        "pattern": 9,
+        "formula": "1(2)(2)1(2)1",
+        "text": "ta ta , dhim , ta dhim , ta",
+        "list": [
+            "1_ta",
+            "2_ta ,",
+            "2_dhim ,",
+            "3_ta dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 347,
+        "pattern": 9,
+        "formula": "1(2)(2)1(3)",
+        "text": "ta ta , dhim , ta dhim , ,",
+        "list": [
+            "1_ta",
+            "2_ta ,",
+            "2_dhim ,",
+            "4_ta dhim , ,"
+        ]
+    },
+    {
+        "sno": 348,
+        "pattern": 9,
+        "formula": "1(2)(2)(2)2",
+        "text": "ta ta , ki , ta , ta ka",
+        "list": [
+            "1_ta",
+            "2_ta ,",
+            "2_ki ,",
+            "2_ta ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 349,
+        "pattern": 9,
+        "formula": "1(2)(2)(2)(2)",
+        "text": "ta ta , dhi , thom , nam ,",
+        "list": [
+            "1_ta",
+            "2_ta ,",
+            "2_dhi ,",
+            "2_thom ,",
+            "2_nam ,"
+        ]
+    },
+    {
+        "sno": 350,
+        "pattern": 9,
+        "formula": "1(2)(2)(3)1",
+        "text": "ta ta , dhim , dhim , , ta",
+        "list": [
+            "1_ta",
+            "2_ta ,",
+            "2_dhim ,",
+            "3_dhim , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 351,
+        "pattern": 9,
+        "formula": "1(2)(2)(4)",
+        "text": "ta ta , dhim , dhim , , ,",
+        "list": [
+            "1_ta",
+            "2_ta ,",
+            "2_dhim ,",
+            "4_dhim , , ,"
+        ]
+    },
+    {
+        "sno": 352,
+        "pattern": 9,
+        "formula": "1(2)(3)3",
+        "text": "ta ta , dhim , , ta ki ta",
+        "list": [
+            "1_ta",
+            "2_ta ,",
+            "3_dhim , ,",
+            "3_ta ki ta"
+        ]
+    },
+    {
+        "sno": 353,
+        "pattern": 9,
+        "formula": "1(2)(3)1(2)",
+        "text": "ta ta , dhim , , ta dhim ,",
+        "list": [
+            "1_ta",
+            "2_ta ,",
+            "3_dhim , ,",
+            "3_ta dhim ,"
+        ]
+    },
+    {
+        "sno": 354,
+        "pattern": 9,
+        "formula": "1(2)(3)(2)1",
+        "text": "ta ta , dhim , , dhim , ta",
+        "list": [
+            "1_ta",
+            "2_ta ,",
+            "3_dhim , ,",
+            "2_dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 355,
+        "pattern": 9,
+        "formula": "1(2)(3)(3)",
+        "text": "ta dhim , ta , , dhim , ,",
+        "list": [
+            "3_ta dhim ,",
+            "3_ta , ,",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 356,
+        "pattern": 9,
+        "formula": "1(2)(4)2",
+        "text": "ta dhim , dhim , , , ta ka",
+        "list": [
+            "3_ta dhim ,",
+            "4_dhim , , ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 357,
+        "pattern": 9,
+        "formula": "1(2)(4)(2)",
+        "text": "ta dhim , dhim , , , dhim ,",
+        "list": [
+            "3_ta dhim ,",
+            "4_dhim , , ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 358,
+        "pattern": 9,
+        "formula": "1(2)(5)1",
+        "text": "ta dhim , dhim , , , , ta",
+        "list": [
+            "3_ta dhim ,",
+            "5_dhim , , , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 359,
+        "pattern": 9,
+        "formula": "1(2)(6)",
+        "text": "ta dhim , dhim , , , , ,",
+        "list": [
+            "3_ta dhim ,",
+            "6_dhim , , , , ,"
+        ]
+    },
+    {
+        "sno": 360,
+        "pattern": 9,
+        "formula": "1(3)5",
+        "text": "ta dhim , , ta dhi gi na ta",
+        "list": [
+            "4_ta dhim , ,",
+            "5_ta dhi gi na ta"
+        ]
+    },
+    {
+        "sno": 361,
+        "pattern": 9,
+        "formula": "1(3)3(2)",
+        "text": "ta dhim , , ta ki ta dhim ,",
+        "list": [
+            "4_ta dhim , ,",
+            "3_ta ki ta",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 362,
+        "pattern": 9,
+        "formula": "1(3)2(2)1",
+        "text": "ta dhim , , ta ka dhim , ta",
+        "list": [
+            "4_ta dhim , ,",
+            "2_ta ka",
+            "2_dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 363,
+        "pattern": 9,
+        "formula": "1(3)2(3)",
+        "text": "ta dhim , , ta ka dhim , ,",
+        "list": [
+            "4_ta dhim , ,",
+            "2_ta ka",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 364,
+        "pattern": 9,
+        "formula": "1(3)1(2)2",
+        "text": "ta dhim , , ta dhim , ta ka",
+        "list": [
+            "4_ta dhim , ,",
+            "1_ta",
+            "2_dhim ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 365,
+        "pattern": 9,
+        "formula": "1(3)1(2)(2)",
+        "text": "ta dhim , , ta ta , dhim ,",
+        "list": [
+            "4_ta dhim , ,",
+            "1_ta",
+            "2_ta ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 366,
+        "pattern": 9,
+        "formula": "1(3)1(3)1",
+        "text": "ta dhim , , ta dhim , , ta",
+        "list": [
+            "4_ta dhim , ,",
+            "1_ta",
+            "3_dhim , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 367,
+        "pattern": 9,
+        "formula": "1(3)1(4)",
+        "text": "ta dhim , , ta dhim , , ,",
+        "list": [
+            "4_ta dhim , ,",
+            "1_ta",
+            "4_dhim , , ,"
+        ]
+    },
+    {
+        "sno": 368,
+        "pattern": 9,
+        "formula": "1(3)(2)3",
+        "text": "ta ta , , dhim , ta ki ta",
+        "list": [
+            "1_ta",
+            "3_ta , ,",
+            "2_dhim ,",
+            "3_ta ki ta"
+        ]
+    },
+    {
+        "sno": 369,
+        "pattern": 9,
+        "formula": "1(3)(2)1(2)",
+        "text": "ta ta , , dhim , ta dhim ,",
+        "list": [
+            "1_ta",
+            "3_ta , ,",
+            "2_dhim ,",
+            "3_ta dhim ,"
+        ]
+    },
+    {
+        "sno": 370,
+        "pattern": 9,
+        "formula": "1(3)(2)(2)1",
+        "text": "ta dhim , , ta , dhim , ta",
+        "list": [
+            "4_ta dhim , ,",
+            "2_ta ,",
+            "2_dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 371,
+        "pattern": 9,
+        "formula": "1(3)(2)(3)",
+        "text": "ta dhim , , ta , dhim , ,",
+        "list": [
+            "4_ta dhim , ,",
+            "2_ta ,",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 372,
+        "pattern": 9,
+        "formula": "1(3)(3)2",
+        "text": "ta ta , , dhim , , ta ka",
+        "list": [
+            "1_ta",
+            "3_ta , ,",
+            "3_dhim , ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 373,
+        "pattern": 9,
+        "formula": "1(3)(3)(2)",
+        "text": "ta ta , , dhim , , dhim ,",
+        "list": [
+            "1_ta",
+            "3_ta , ,",
+            "3_dhim , ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 374,
+        "pattern": 9,
+        "formula": "1(3)(4)1",
+        "text": "ta dhim , , dhim , , , ta",
+        "list": [
+            "4_ta dhim , ,",
+            "4_dhim , , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 375,
+        "pattern": 9,
+        "formula": "1(3)(5)",
+        "text": "ta dhim , , dhim , , , ,",
+        "list": [
+            "4_ta dhim , ,",
+            "5_dhim , , , ,"
+        ]
+    },
+    {
+        "sno": 376,
+        "pattern": 9,
+        "formula": "1(4)4",
+        "text": "ta dhim , , , ta ka dhi na",
+        "list": [
+            "5_ta dhim , , ,",
+            "4_ta ka dhi na"
+        ]
+    },
+    {
+        "sno": 377,
+        "pattern": 9,
+        "formula": "1(4)2(2)",
+        "text": "ta dhim , , , ta ka dhim ,",
+        "list": [
+            "5_ta dhim , , ,",
+            "2_ta ka",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 378,
+        "pattern": 9,
+        "formula": "1(4)1(2)1",
+        "text": "ta dhim , , , ta dhim , ta",
+        "list": [
+            "5_ta dhim , , ,",
+            "3_ta dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 379,
+        "pattern": 9,
+        "formula": "1(4)1(3)",
+        "text": "ta dhim , , , ta dhim , ,",
+        "list": [
+            "5_ta dhim , , ,",
+            "1_ta",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 380,
+        "pattern": 9,
+        "formula": "1(4)(2)2",
+        "text": "ta dhim , , , dhim , ta ka",
+        "list": [
+            "5_ta dhim , , ,",
+            "2_dhim ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 381,
+        "pattern": 9,
+        "formula": "1(4)(2)(2)",
+        "text": "ta dhim , , , ta , dhim ,",
+        "list": [
+            "5_ta dhim , , ,",
+            "2_ta ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 382,
+        "pattern": 9,
+        "formula": "1(4)(3)1",
+        "text": "ta dhim , , , dhim , , ta",
+        "list": [
+            "5_ta dhim , , ,",
+            "3_dhim , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 383,
+        "pattern": 9,
+        "formula": "1(4)(4)",
+        "text": "ta dhim , , , dhim , , ,",
+        "list": [
+            "5_ta dhim , , ,",
+            "4_dhim , , ,"
+        ]
+    },
+    {
+        "sno": 384,
+        "pattern": 9,
+        "formula": "1(5)3",
+        "text": "ta dhim , , , , ta ki ta",
+        "list": [
+            "6_ta dhim , , , ,",
+            "3_ta ki ta"
+        ]
+    },
+    {
+        "sno": 385,
+        "pattern": 9,
+        "formula": "1(5)1(2)",
+        "text": "ta dhim , , , , ta dhim ,",
+        "list": [
+            "6_ta dhim , , , ,",
+            "1_ta",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 386,
+        "pattern": 9,
+        "formula": "1(5)(2)1",
+        "text": "ta dhim , , , , dhim , ta",
+        "list": [
+            "6_ta dhim , , , ,",
+            "2_dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 387,
+        "pattern": 9,
+        "formula": "1(5)(3)",
+        "text": "ta dhim , , , , dhim , ,",
+        "list": [
+            "6_ta dhim , , , ,",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 388,
+        "pattern": 9,
+        "formula": "1(6)2",
+        "text": "ta dhim , , , , , ta ka",
+        "list": [
+            "7_ta dhim , , , , ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 389,
+        "pattern": 9,
+        "formula": "1(6)(2)",
+        "text": "ta dhim , , , , , dhim ,",
+        "list": [
+            "7_ta dhim , , , , ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 390,
+        "pattern": 9,
+        "formula": "1(7)1",
+        "text": "ta dhim , , , , , , ta",
+        "list": [
+            "8_ta dhim , , , , , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 391,
+        "pattern": 9,
+        "formula": "1(8)",
+        "text": "ta dhim , , , , , , ,",
+        "list": [
+            "9_ta dhim , , , , , , ,"
+        ]
+    },
+    {
+        "sno": 392,
+        "pattern": 9,
+        "formula": "(2)7",
+        "text": "dhim , ta ka dhi mi ta ki ta",
+        "list": [
+            "2_dhim ,",
+            "4_ta ka dhi mi",
+            "3_ta ki ta"
+        ]
+    },
+    {
+        "sno": 393,
+        "pattern": 9,
+        "formula": "(2)5(2)",
+        "text": "dhim , ta dhi gi na ta dhim ,",
+        "list": [
+            "2_dhim ,",
+            "5_ta dhi gi na ta",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 394,
+        "pattern": 9,
+        "formula": "(2)4(2)1",
+        "text": "dhim , ta ka dhi na dhim , ta",
+        "list": [
+            "2_dhim ,",
+            "4_ta ka dhi na",
+            "2_dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 395,
+        "pattern": 9,
+        "formula": "(2)4(3)",
+        "text": "dhim , ta ka dhi na dhim , ,",
+        "list": [
+            "2_dhim ,",
+            "4_ta ka dhi na",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 396,
+        "pattern": 9,
+        "formula": "(2)3(2)2",
+        "text": "dhim , ta ki ta dhim , ta ka",
+        "list": [
+            "2_dhim ,",
+            "3_ta ki ta",
+            "2_dhim ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 397,
+        "pattern": 9,
+        "formula": "(2)3(2)(2)",
+        "text": "dhim , ta ki ta ta , dhim ,",
+        "list": [
+            "2_dhim ,",
+            "3_ta ki ta",
+            "2_ta ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 398,
+        "pattern": 9,
+        "formula": "(2)3(3)1",
+        "text": "dhim , ta ki ta dhim , , ta",
+        "list": [
+            "2_dhim ,",
+            "3_ta ki ta",
+            "3_dhim , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 399,
+        "pattern": 9,
+        "formula": "(2)3(4)",
+        "text": "dhim , ta ki ta dhim , , ,",
+        "list": [
+            "2_dhim ,",
+            "3_ta ki ta",
+            "4_dhim , , ,"
+        ]
+    },
+    {
+        "sno": 400,
+        "pattern": 9,
+        "formula": "(2)2(2)3",
+        "text": "dhim , ta ka dhim , ta ki ta",
+        "list": [
+            "2_dhim ,",
+            "2_ta ka",
+            "2_dhim ,",
+            "3_ta ki ta"
+        ]
+    },
+    {
+        "sno": 401,
+        "pattern": 9,
+        "formula": "(2)2(2)1(2)",
+        "text": "dhim , ta ka dhim , ta dhim ,",
+        "list": [
+            "2_dhim ,",
+            "2_ta ka",
+            "2_dhim ,",
+            "3_ta dhim ,"
+        ]
+    },
+    {
+        "sno": 402,
+        "pattern": 9,
+        "formula": "(2)2(2)(2)1",
+        "text": "dhim , ta ka ta , dhim , ta",
+        "list": [
+            "2_dhim ,",
+            "2_ta ka",
+            "2_ta ,",
+            "2_dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 403,
+        "pattern": 9,
+        "formula": "(2)2(2)(3)",
+        "text": "dhim , ta ka ta , dhim , ,",
+        "list": [
+            "2_dhim ,",
+            "2_ta ka",
+            "2_ta ,",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 404,
+        "pattern": 9,
+        "formula": "(2)2(3)11",
+        "text": "dhim , ta ka dhim , , ta ta",
+        "list": [
+            "2_dhim ,",
+            "2_ta ka",
+            "3_dhim , ,",
+            "1_ta",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 405,
+        "pattern": 9,
+        "formula": "(2)2(3)(2)",
+        "text": "dhim , ta ka ta , , dhim ,",
+        "list": [
+            "2_dhim ,",
+            "2_ta ka",
+            "3_ta , ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 406,
+        "pattern": 9,
+        "formula": "(2)2(4)1",
+        "text": "dhim , ta ka dhim , , , ta",
+        "list": [
+            "2_dhim ,",
+            "2_ta ka",
+            "4_dhim , , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 407,
+        "pattern": 9,
+        "formula": "(2)2(5)",
+        "text": "dhim , ta ka dhim , , , ,",
+        "list": [
+            "2_dhim ,",
+            "2_ta ka",
+            "5_dhim , , , ,"
+        ]
+    },
+    {
+        "sno": 408,
+        "pattern": 9,
+        "formula": "(2)1(2)4",
+        "text": "dhim , ta dhim , ta ka dhi na",
+        "list": [
+            "2_dhim ,",
+            "3_ta dhim ,",
+            "4_ta ka dhi na"
+        ]
+    },
+    {
+        "sno": 409,
+        "pattern": 9,
+        "formula": "(2)1(2)2(2)",
+        "text": "dhim , ta dhim , ta ka dhim ,",
+        "list": [
+            "2_dhim ,",
+            "3_ta dhim ,",
+            "2_ta ka",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 410,
+        "pattern": 9,
+        "formula": "(2)1(2)1(2)1",
+        "text": "dhim , ta dhim , ta dhim , ta",
+        "list": [
+            "2_dhim ,",
+            "3_ta dhim ,",
+            "1_ta",
+            "2_dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 411,
+        "pattern": 9,
+        "formula": "(2)1(2)1(3)",
+        "text": "dhim , ta dhim , ta dhim , ,",
+        "list": [
+            "2_dhim ,",
+            "3_ta dhim ,",
+            "1_ta",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 412,
+        "pattern": 9,
+        "formula": "(2)1(2)(2)2",
+        "text": "dhim , ta ta , dhim , ta ka",
+        "list": [
+            "2_dhim ,",
+            "1_ta",
+            "2_ta ,",
+            "2_dhim ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 413,
+        "pattern": 9,
+        "formula": "(2)1(2)(2)(2)",
+        "text": "dhim , ta ta , ki , ta ,",
+        "list": [
+            "2_dhim ,",
+            "1_ta",
+            "2_ta ,",
+            "2_ki ,",
+            "2_ta ,"
+        ]
+    },
+    {
+        "sno": 414,
+        "pattern": 9,
+        "formula": "(2)1(2)(3)1",
+        "text": "dhim , ta ta , dhim , , ta",
+        "list": [
+            "2_dhim ,",
+            "1_ta",
+            "2_ta ,",
+            "3_dhim , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 415,
+        "pattern": 9,
+        "formula": "(2)1(2)(4)",
+        "text": "dhim , ta dhim , dhim , , ,",
+        "list": [
+            "2_dhim ,",
+            "3_ta dhim ,",
+            "4_dhim , , ,"
+        ]
+    },
+    {
+        "sno": 416,
+        "pattern": 9,
+        "formula": "(2)1(3)3",
+        "text": "dhim , ta dhim , , ta ki ta",
+        "list": [
+            "2_dhim ,",
+            "4_ta dhim , ,",
+            "3_ta ki ta"
+        ]
+    },
+    {
+        "sno": 417,
+        "pattern": 9,
+        "formula": "(2)1(3)1(2)",
+        "text": "dhim , ta dhim , , ta dhim ,",
+        "list": [
+            "2_dhim ,",
+            "4_ta dhim , ,",
+            "1_ta",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 418,
+        "pattern": 9,
+        "formula": "(2)1(3)(2)1",
+        "text": "dhim , ta ta , , dhim , ta",
+        "list": [
+            "2_dhim ,",
+            "1_ta",
+            "3_ta , ,",
+            "2_dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 419,
+        "pattern": 9,
+        "formula": "(2)1(3)(3)",
+        "text": "dhim , ta ta , , dhim , ,",
+        "list": [
+            "2_dhim ,",
+            "1_ta",
+            "3_ta , ,",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 420,
+        "pattern": 9,
+        "formula": "(2)1(4)2",
+        "text": "dhim , ta dhim , , , ta ka",
+        "list": [
+            "2_dhim ,",
+            "5_ta dhim , , ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 421,
+        "pattern": 9,
+        "formula": "(2)1(4)(2)",
+        "text": "dhim , ta dhim , , , dhim ,",
+        "list": [
+            "2_dhim ,",
+            "5_ta dhim , , ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 422,
+        "pattern": 9,
+        "formula": "(2)1(5)1",
+        "text": "dhim , ta dhim , , , , ta",
+        "list": [
+            "2_dhim ,",
+            "6_ta dhim , , , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 423,
+        "pattern": 9,
+        "formula": "(2)1(6)",
+        "text": "dhim , ta dhim , , , , ,",
+        "list": [
+            "2_dhim ,",
+            "7_ta dhim , , , , ,"
+        ]
+    },
+    {
+        "sno": 424,
+        "pattern": 9,
+        "formula": "(2)(2)5",
+        "text": "ta , dhim , ta dhi gi na ta",
+        "list": [
+            "2_ta ,",
+            "2_dhim ,",
+            "5_ta dhi gi na ta"
+        ]
+    },
+    {
+        "sno": 425,
+        "pattern": 9,
+        "formula": "(2)(2)3(2)",
+        "text": "ta , dhim , ta ki ta dhim ,",
+        "list": [
+            "2_ta ,",
+            "2_dhim ,",
+            "3_ta ki ta",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 426,
+        "pattern": 9,
+        "formula": "(2)(2)2(2)1",
+        "text": "ta , dhim , ta ka dhim , ta",
+        "list": [
+            "2_ta ,",
+            "2_dhim ,",
+            "2_ta ka",
+            "2_dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 427,
+        "pattern": 9,
+        "formula": "(2)(2)2(3)",
+        "text": "ta , dhim , ta ka dhim , ,",
+        "list": [
+            "2_ta ,",
+            "2_dhim ,",
+            "2_ta ka",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 428,
+        "pattern": 9,
+        "formula": "(2)(2)1(2)2",
+        "text": "ta , dhim , ta dhim , ta ka",
+        "list": [
+            "2_ta ,",
+            "2_dhim ,",
+            "3_ta dhim ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 429,
+        "pattern": 9,
+        "formula": "(2)(2)1(2)(2)",
+        "text": "ta , dhim , ta ta , dhim ,",
+        "list": [
+            "2_ta ,",
+            "2_dhim ,",
+            "1_ta",
+            "2_ta ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 430,
+        "pattern": 9,
+        "formula": "(2)(2)1(3)1",
+        "text": "ta , dhim , ta dhim , , ta",
+        "list": [
+            "2_ta ,",
+            "2_dhim ,",
+            "4_ta dhim , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 431,
+        "pattern": 9,
+        "formula": "(2)(2)1(4)",
+        "text": "ta , dhim , ta dhim , , ,",
+        "list": [
+            "2_ta ,",
+            "2_dhim ,",
+            "5_ta dhim , , ,"
+        ]
+    },
+    {
+        "sno": 432,
+        "pattern": 9,
+        "formula": "(2)(2)(2)3",
+        "text": "ta , ki , ta , ta ki ta",
+        "list": [
+            "2_ta ,",
+            "2_ki ,",
+            "2_ta ,",
+            "3_ta ki ta"
+        ]
+    },
+    {
+        "sno": 433,
+        "pattern": 9,
+        "formula": "(2)(2)(2)1(2)",
+        "text": "ta , ki , ta , ta dhim ,",
+        "list": [
+            "2_ta ,",
+            "2_ki ,",
+            "2_ta ,",
+            "3_ta dhim ,"
+        ]
+    },
+    {
+        "sno": 434,
+        "pattern": 9,
+        "formula": "(2)(2)(2)(2)1",
+        "text": "ta , dhi , thom , nam , ta",
+        "list": [
+            "2_ta ,",
+            "2_dhi ,",
+            "2_thom ,",
+            "2_nam ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 435,
+        "pattern": 9,
+        "formula": "(2)(2)(2)(3)",
+        "text": "ta , ki , ta , dhim , ,",
+        "list": [
+            "2_ta ,",
+            "2_ki ,",
+            "2_ta ,",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 436,
+        "pattern": 9,
+        "formula": "(2)(2)(3)2",
+        "text": "ta , dhim , dhim , , ta ka",
+        "list": [
+            "2_ta ,",
+            "2_dhim ,",
+            "3_dhim , ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 437,
+        "pattern": 9,
+        "formula": "(2)(2)(3)(2)",
+        "text": "ta , dhim , ta , , dhim ,",
+        "list": [
+            "2_ta ,",
+            "2_dhim ,",
+            "3_ta , ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 438,
+        "pattern": 9,
+        "formula": "(2)(2)(4)1",
+        "text": "ta , dhim , dhim , , , ta",
+        "list": [
+            "2_ta ,",
+            "2_dhim ,",
+            "4_dhim , , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 439,
+        "pattern": 9,
+        "formula": "(2)(2)(5)",
+        "text": "ta , dhim , dhim , , , ,",
+        "list": [
+            "2_ta ,",
+            "2_dhim ,",
+            "5_dhim , , , ,"
+        ]
+    },
+    {
+        "sno": 440,
+        "pattern": 9,
+        "formula": "(2)(3)4",
+        "text": "ta , dhim , , ta ka dhi na",
+        "list": [
+            "2_ta ,",
+            "3_dhim , ,",
+            "4_ta ka dhi na"
+        ]
+    },
+    {
+        "sno": 441,
+        "pattern": 9,
+        "formula": "(2)(3)2(2)",
+        "text": "ta , dhim , , ta ka dhim ,",
+        "list": [
+            "2_ta ,",
+            "3_dhim , ,",
+            "2_ta ka",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 442,
+        "pattern": 9,
+        "formula": "(2)(3)1(2)1",
+        "text": "ta , dhim , , ta dhim , ta",
+        "list": [
+            "2_ta ,",
+            "3_dhim , ,",
+            "3_ta dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 443,
+        "pattern": 9,
+        "formula": "(2)(3)1(3)",
+        "text": "ta , dhim , , ta dhim , ,",
+        "list": [
+            "2_ta ,",
+            "3_dhim , ,",
+            "4_ta dhim , ,"
+        ]
+    },
+    {
+        "sno": 444,
+        "pattern": 9,
+        "formula": "(2)(3)(2)2",
+        "text": "ta , dhim , , dhim , ta ka",
+        "list": [
+            "2_ta ,",
+            "3_dhim , ,",
+            "2_dhim ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 445,
+        "pattern": 9,
+        "formula": "(2)(3)(2)(2)",
+        "text": "ta , dhim , , ta , dhim ,",
+        "list": [
+            "2_ta ,",
+            "3_dhim , ,",
+            "2_ta ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 446,
+        "pattern": 9,
+        "formula": "(2)(3)(3)1",
+        "text": "dhim , ta , , dhim , , ta",
+        "list": [
+            "2_dhim ,",
+            "3_ta , ,",
+            "3_dhim , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 447,
+        "pattern": 9,
+        "formula": "(2)(3)(4)",
+        "text": "ta , dhim , , dhim , , ,",
+        "list": [
+            "2_ta ,",
+            "3_dhim , ,",
+            "4_dhim , , ,"
+        ]
+    },
+    {
+        "sno": 448,
+        "pattern": 9,
+        "formula": "(2)(4)3",
+        "text": "dhim , dhim , , , ta ki ta",
+        "list": [
+            "2_dhim ,",
+            "4_dhim , , ,",
+            "3_ta ki ta"
+        ]
+    },
+    {
+        "sno": 449,
+        "pattern": 9,
+        "formula": "(2)(4)1(2)",
+        "text": "dhim , dhim , , , ta dhim ,",
+        "list": [
+            "2_dhim ,",
+            "4_dhim , , ,",
+            "3_ta dhim ,"
+        ]
+    },
+    {
+        "sno": 450,
+        "pattern": 9,
+        "formula": "(2)(4)(2)1",
+        "text": "dhim , dhim , , , dhim , ta",
+        "list": [
+            "2_dhim ,",
+            "4_dhim , , ,",
+            "2_dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 451,
+        "pattern": 9,
+        "formula": "(2)(4)(3)",
+        "text": "dhim , dhim , , , dhim , ,",
+        "list": [
+            "2_dhim ,",
+            "4_dhim , , ,",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 452,
+        "pattern": 9,
+        "formula": "(2)(5)2",
+        "text": "dhim , dhim , , , , ta ka",
+        "list": [
+            "2_dhim ,",
+            "5_dhim , , , ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 453,
+        "pattern": 9,
+        "formula": "(2)(5)(2)",
+        "text": "dhim , dhim , , , , dhim ,",
+        "list": [
+            "2_dhim ,",
+            "5_dhim , , , ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 454,
+        "pattern": 9,
+        "formula": "(2)(6)1",
+        "text": "dhim , dhim , , , , , ta",
+        "list": [
+            "2_dhim ,",
+            "6_dhim , , , , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 455,
+        "pattern": 9,
+        "formula": "(2)(7)",
+        "text": "dhim , dhim , , , , , ,",
+        "list": [
+            "2_dhim ,",
+            "7_dhim , , , , , ,"
+        ]
+    },
+    {
+        "sno": 456,
+        "pattern": 9,
+        "formula": "(3)6",
+        "text": "dhim , , ta ka dhi mi ta ka",
+        "list": [
+            "3_dhim , ,",
+            "4_ta ka dhi mi",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 457,
+        "pattern": 9,
+        "formula": "(3)4(2)",
+        "text": "dhim , , ta ka dhi na dhim ,",
+        "list": [
+            "3_dhim , ,",
+            "4_ta ka dhi na",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 458,
+        "pattern": 9,
+        "formula": "(3)3(2)1",
+        "text": "dhim , , ta ki ta dhim , ta",
+        "list": [
+            "3_dhim , ,",
+            "3_ta ki ta",
+            "2_dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 459,
+        "pattern": 9,
+        "formula": "(3)3(3)",
+        "text": "dhim , , ta ki ta dhim , ,",
+        "list": [
+            "3_dhim , ,",
+            "3_ta ki ta",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 460,
+        "pattern": 9,
+        "formula": "(3)2(2)11",
+        "text": "dhim , , ta ka dhim , ta ta",
+        "list": [
+            "3_dhim , ,",
+            "2_ta ka",
+            "2_dhim ,",
+            "1_ta",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 461,
+        "pattern": 9,
+        "formula": "(3)2(2)(2)",
+        "text": "dhim , , ta ka ta , dhim ,",
+        "list": [
+            "3_dhim , ,",
+            "2_ta ka",
+            "2_ta ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 462,
+        "pattern": 9,
+        "formula": "(3)2(3)1",
+        "text": "dhim , , ta ka dhim , , ta",
+        "list": [
+            "3_dhim , ,",
+            "2_ta ka",
+            "3_dhim , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 463,
+        "pattern": 9,
+        "formula": "(3)2(4)",
+        "text": "dhim , , ta ka dhim , , ,",
+        "list": [
+            "3_dhim , ,",
+            "2_ta ka",
+            "4_dhim , , ,"
+        ]
+    },
+    {
+        "sno": 464,
+        "pattern": 9,
+        "formula": "(3)1(2)3",
+        "text": "dhim , , ta dhim , ta ki ta",
+        "list": [
+            "3_dhim , ,",
+            "3_ta dhim ,",
+            "3_ta ki ta"
+        ]
+    },
+    {
+        "sno": 465,
+        "pattern": 9,
+        "formula": "(3)1(2)1(2)",
+        "text": "dhim , , ta dhim , ta dhim ,",
+        "list": [
+            "3_dhim , ,",
+            "3_ta dhim ,",
+            "1_ta",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 466,
+        "pattern": 9,
+        "formula": "(3)1(2)(2)1",
+        "text": "dhim , , ta ta , dhim , ta",
+        "list": [
+            "3_dhim , ,",
+            "1_ta",
+            "2_ta ,",
+            "2_dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 467,
+        "pattern": 9,
+        "formula": "(3)1(2)(3)",
+        "text": "dhim , , ta ta , dhim , ,",
+        "list": [
+            "3_dhim , ,",
+            "1_ta",
+            "2_ta ,",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 468,
+        "pattern": 9,
+        "formula": "(3)1(3)2",
+        "text": "dhim , , ta dhim , , ta ka",
+        "list": [
+            "3_dhim , ,",
+            "4_ta dhim , ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 469,
+        "pattern": 9,
+        "formula": "(3)1(3)(2)",
+        "text": "dhim , , ta ta , , dhim ,",
+        "list": [
+            "3_dhim , ,",
+            "1_ta",
+            "3_ta , ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 470,
+        "pattern": 9,
+        "formula": "(3)1(4)1",
+        "text": "dhim , , ta dhim , , , ta",
+        "list": [
+            "3_dhim , ,",
+            "5_ta dhim , , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 471,
+        "pattern": 9,
+        "formula": "(3)1(5)",
+        "text": "dhim , , ta dhim , , , ,",
+        "list": [
+            "3_dhim , ,",
+            "6_ta dhim , , , ,"
+        ]
+    },
+    {
+        "sno": 472,
+        "pattern": 9,
+        "formula": "(3)(2)4",
+        "text": "ta , , dhim , ta ka dhi na",
+        "list": [
+            "3_ta , ,",
+            "2_dhim ,",
+            "4_ta ka dhi na"
+        ]
+    },
+    {
+        "sno": 473,
+        "pattern": 9,
+        "formula": "(3)(2)2(2)",
+        "text": "ta , , dhim , ta ka dhim ,",
+        "list": [
+            "3_ta , ,",
+            "2_dhim ,",
+            "2_ta ka",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 474,
+        "pattern": 9,
+        "formula": "(3)(2)1(2)1",
+        "text": "ta , , dhim , ta dhim , ta",
+        "list": [
+            "3_ta , ,",
+            "2_dhim ,",
+            "3_ta dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 475,
+        "pattern": 9,
+        "formula": "(3)(2)1(3)",
+        "text": "ta , , dhim , ta dhim , ,",
+        "list": [
+            "3_ta , ,",
+            "2_dhim ,",
+            "4_ta dhim , ,"
+        ]
+    },
+    {
+        "sno": 476,
+        "pattern": 9,
+        "formula": "(3)(2)(2)2",
+        "text": "dhim , , ta , dhim , ta ka",
+        "list": [
+            "3_dhim , ,",
+            "2_ta ,",
+            "2_dhim ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 477,
+        "pattern": 9,
+        "formula": "(3)(2)(2)(2)",
+        "text": "dhim , , ta , ki , ta ,",
+        "list": [
+            "3_dhim , ,",
+            "2_ta ,",
+            "2_ki ,",
+            "2_ta ,"
+        ]
+    },
+    {
+        "sno": 478,
+        "pattern": 9,
+        "formula": "(3)(2)(3)1",
+        "text": "dhim , , ta , dhim , , ta",
+        "list": [
+            "3_dhim , ,",
+            "2_ta ,",
+            "3_dhim , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 479,
+        "pattern": 9,
+        "formula": "(3)(2)(4)",
+        "text": "ta , , dhim , dhim , , ,",
+        "list": [
+            "3_ta , ,",
+            "2_dhim ,",
+            "4_dhim , , ,"
+        ]
+    },
+    {
+        "sno": 480,
+        "pattern": 9,
+        "formula": "(3)(3)3",
+        "text": "ta , , dhim , , ta ki ta",
+        "list": [
+            "3_ta , ,",
+            "3_dhim , ,",
+            "3_ta ki ta"
+        ]
+    },
+    {
+        "sno": 481,
+        "pattern": 9,
+        "formula": "(3)(3)1(2)",
+        "text": "ta , , dhim , , ta dhim ,",
+        "list": [
+            "3_ta , ,",
+            "3_dhim , ,",
+            "3_ta dhim ,"
+        ]
+    },
+    {
+        "sno": 482,
+        "pattern": 9,
+        "formula": "(3)(3)(2)1",
+        "text": "ta , , dhim , , dhim , ta",
+        "list": [
+            "3_ta , ,",
+            "3_dhim , ,",
+            "2_dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 483,
+        "pattern": 9,
+        "formula": "(3)(3)(3)",
+        "text": "ta , , dhi , , thom , ,",
+        "list": [
+            "3_ta , ,",
+            "3_dhi , ,",
+            "3_thom , ,"
+        ]
+    },
+    {
+        "sno": 484,
+        "pattern": 9,
+        "formula": "(3)(4)2",
+        "text": "dhim , , dhim , , , ta ka",
+        "list": [
+            "3_dhim , ,",
+            "4_dhim , , ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 485,
+        "pattern": 9,
+        "formula": "(3)(4)(2)",
+        "text": "dhim , , dhim , , , dhim ,",
+        "list": [
+            "3_dhim , ,",
+            "4_dhim , , ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 486,
+        "pattern": 9,
+        "formula": "(3)(5)1",
+        "text": "dhim , , dhim , , , , ta",
+        "list": [
+            "3_dhim , ,",
+            "5_dhim , , , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 487,
+        "pattern": 9,
+        "formula": "(3)(6)",
+        "text": "dhim , , dhim , , , , ,",
+        "list": [
+            "3_dhim , ,",
+            "6_dhim , , , , ,"
+        ]
+    },
+    {
+        "sno": 488,
+        "pattern": 9,
+        "formula": "(4)5",
+        "text": "dhim , , , ta dhi gi na ta",
+        "list": [
+            "4_dhim , , ,",
+            "5_ta dhi gi na ta"
+        ]
+    },
+    {
+        "sno": 489,
+        "pattern": 9,
+        "formula": "(4)3(2)",
+        "text": "dhim , , , ta ki ta dhim ,",
+        "list": [
+            "4_dhim , , ,",
+            "3_ta ki ta",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 490,
+        "pattern": 9,
+        "formula": "(4)2(2)1",
+        "text": "dhim , , , ta ka dhim , ta",
+        "list": [
+            "4_dhim , , ,",
+            "2_ta ka",
+            "2_dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 491,
+        "pattern": 9,
+        "formula": "(4)2(3)",
+        "text": "dhim , , , ta ka dhim , ,",
+        "list": [
+            "4_dhim , , ,",
+            "2_ta ka",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 492,
+        "pattern": 9,
+        "formula": "(4)1(2)2",
+        "text": "dhim , , , ta dhim , ta ka",
+        "list": [
+            "4_dhim , , ,",
+            "3_ta dhim ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 493,
+        "pattern": 9,
+        "formula": "(4)1(2)(2)",
+        "text": "dhim , , , ta ta , dhim ,",
+        "list": [
+            "4_dhim , , ,",
+            "1_ta",
+            "2_ta ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 494,
+        "pattern": 9,
+        "formula": "(4)1(3)1",
+        "text": "dhim , , , ta dhim , , ta",
+        "list": [
+            "4_dhim , , ,",
+            "4_ta dhim , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 495,
+        "pattern": 9,
+        "formula": "(4)1(4)",
+        "text": "dhim , , , ta dhim , , ,",
+        "list": [
+            "4_dhim , , ,",
+            "5_ta dhim , , ,"
+        ]
+    },
+    {
+        "sno": 496,
+        "pattern": 9,
+        "formula": "(4)(2)3",
+        "text": "dhim , , , dhim , ta ki ta",
+        "list": [
+            "4_dhim , , ,",
+            "2_dhim ,",
+            "3_ta ki ta"
+        ]
+    },
+    {
+        "sno": 497,
+        "pattern": 9,
+        "formula": "(4)(2)1(2)",
+        "text": "dhim , , , dhim , ta dhim ,",
+        "list": [
+            "4_dhim , , ,",
+            "2_dhim ,",
+            "3_ta dhim ,"
+        ]
+    },
+    {
+        "sno": 498,
+        "pattern": 9,
+        "formula": "(4)(2)(2)1",
+        "text": "dhim , , , ta , dhim , ta",
+        "list": [
+            "4_dhim , , ,",
+            "2_ta ,",
+            "2_dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 499,
+        "pattern": 9,
+        "formula": "(4)(2)(3)",
+        "text": "dhim , , , ta , dhim , ,",
+        "list": [
+            "4_dhim , , ,",
+            "2_ta ,",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 500,
+        "pattern": 9,
+        "formula": "(4)(3)2",
+        "text": "dhim , , , dhim , , ta ka",
+        "list": [
+            "4_dhim , , ,",
+            "3_dhim , ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 501,
+        "pattern": 9,
+        "formula": "(4)(3)(2)",
+        "text": "dhim , , , ta , , dhim ,",
+        "list": [
+            "4_dhim , , ,",
+            "3_ta , ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 502,
+        "pattern": 9,
+        "formula": "(4)(4)1",
+        "text": "dhim , , , dhim , , , ta",
+        "list": [
+            "4_dhim , , ,",
+            "4_dhim , , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 503,
+        "pattern": 9,
+        "formula": "(4)(5)",
+        "text": "dhim , , , dhim , , , ,",
+        "list": [
+            "4_dhim , , ,",
+            "5_dhim , , , ,"
+        ]
+    },
+    {
+        "sno": 504,
+        "pattern": 9,
+        "formula": "(5)4",
+        "text": "dhim , , , , ta ka dhi na",
+        "list": [
+            "5_dhim , , , ,",
+            "4_ta ka dhi na"
+        ]
+    },
+    {
+        "sno": 505,
+        "pattern": 9,
+        "formula": "(5)2(2)",
+        "text": "dhim , , , , ta ka dhim ,",
+        "list": [
+            "5_dhim , , , ,",
+            "2_ta ka",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 506,
+        "pattern": 9,
+        "formula": "(5)1(2)1",
+        "text": "dhim , , , , ta dhim , ta",
+        "list": [
+            "5_dhim , , , ,",
+            "3_ta dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 507,
+        "pattern": 9,
+        "formula": "(5)1(3)",
+        "text": "dhim , , , , ta dhim , ,",
+        "list": [
+            "5_dhim , , , ,",
+            "4_ta dhim , ,"
+        ]
+    },
+    {
+        "sno": 508,
+        "pattern": 9,
+        "formula": "(5)(2)2",
+        "text": "dhim , , , , dhim , ta ka",
+        "list": [
+            "5_dhim , , , ,",
+            "2_dhim ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 509,
+        "pattern": 9,
+        "formula": "(5)(2)(2)",
+        "text": "dhim , , , , ta , dhim ,",
+        "list": [
+            "5_dhim , , , ,",
+            "2_ta ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 510,
+        "pattern": 9,
+        "formula": "(5)(3)1",
+        "text": "dhim , , , , dhim , , ta",
+        "list": [
+            "5_dhim , , , ,",
+            "3_dhim , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 511,
+        "pattern": 9,
+        "formula": "(5)(4)",
+        "text": "dhim , , , , dhim , , ,",
+        "list": [
+            "5_dhim , , , ,",
+            "4_dhim , , ,"
+        ]
+    },
+    {
+        "sno": 512,
+        "pattern": 9,
+        "formula": "(6)3",
+        "text": "dhim , , , , , ta ki ta",
+        "list": [
+            "6_dhim , , , , ,",
+            "3_ta ki ta"
+        ]
+    },
+    {
+        "sno": 513,
+        "pattern": 9,
+        "formula": "(6)1(2)",
+        "text": "dhim , , , , , ta dhim ,",
+        "list": [
+            "6_dhim , , , , ,",
+            "3_ta dhim ,"
+        ]
+    },
+    {
+        "sno": 514,
+        "pattern": 9,
+        "formula": "(6)(2)1",
+        "text": "dhim , , , , , dhim , ta",
+        "list": [
+            "6_dhim , , , , ,",
+            "2_dhim ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 515,
+        "pattern": 9,
+        "formula": "(6)(3)",
+        "text": "dhim , , , , , dhim , ,",
+        "list": [
+            "6_dhim , , , , ,",
+            "3_dhim , ,"
+        ]
+    },
+    {
+        "sno": 516,
+        "pattern": 9,
+        "formula": "(7)2",
+        "text": "dhim , , , , , , ta ka",
+        "list": [
+            "7_dhim , , , , , ,",
+            "2_ta ka"
+        ]
+    },
+    {
+        "sno": 517,
+        "pattern": 9,
+        "formula": "(7)(2)",
+        "text": "dhim , , , , , , dhim ,",
+        "list": [
+            "7_dhim , , , , , ,",
+            "2_dhim ,"
+        ]
+    },
+    {
+        "sno": 518,
+        "pattern": 9,
+        "formula": "(8)1",
+        "text": "dhim , , , , , , , ta",
+        "list": [
+            "8_dhim , , , , , , ,",
+            "1_ta"
+        ]
+    },
+    {
+        "sno": 519,
+        "pattern": 9,
+        "formula": "(9)",
+        "text": "dhim , , , , , , , ,",
+        "list": [
+            "9_dhim , , , , , , , ,"
+        ]
+    },
+    {
+        "sno": 520,
+        "pattern": 9,
+        "formula": "(, , , , , , , , ,)",
+        "text": ", , , , , , , , ,",
+        "list": [
+            "9_, , , , , , , , ,"
+        ]
+    }
+]
