@@ -195,8 +195,16 @@ function loaddiskjathis(){
     }
 }
 
+function getAudioPath(fileName) {
+    const githubBaseUrl = "https://github.com/satyanandarowlo/layapractice1/raw/refs/heads/main/public/Data/Audio/laya/";
+    if (window.location.href.includes("github") && fileName.endsWith(".mp3")) {
+        return `${githubBaseUrl}${fileName}`;
+    }
+    return `${layadirectory}/${fileName}`;
+}
+
+// Update audiohelperdata paths to use getAudioPath
 function loadallaudiotext() {
-    // Predefined list of audio files in the laya folder
     const audioFiles = [
         "1_,.mp3",
         "1_ta.mp3",
@@ -241,7 +249,7 @@ function loadallaudiotext() {
         "click2.mp3"
     ];
 
-    audiohelperdata.push({ name: "click", path: `${layadirectory}/click2.mp3` });
+    audiohelperdata.push({ name: "click", path: getAudioPath("click2.mp3") });
 
     for (var file of audioFiles) {
         if (file.indexOf("mp3") === -1) continue;
@@ -250,11 +258,10 @@ function loadallaudiotext() {
             var content = file.replace(".mp3", "");
             var contentminushash = content.replace("0_", "");
             var size = contentminushash.substr(0, contentminushash.indexOf("_"));
-            audiohelperdata.push({ name: content, path: `${layadirectory}/${content}.mp3`, size: Number(size) });
+            audiohelperdata.push({ name: content, path: getAudioPath(file), size: Number(size) });
         }
     }
 }
-
 
 function loadallaudiobuffers()
 {
