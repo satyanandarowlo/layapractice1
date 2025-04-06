@@ -19,8 +19,4 @@ out/
 # Ignore system files
 .DS_Store
 
-# Ignore static-app audio files
-static-app/public/Data/Audio/**/*.mp3
-
-# Ignore layav1 audio files
-layav1/public/Data/Audio/**/*.mp3
+#never ignore audio files
