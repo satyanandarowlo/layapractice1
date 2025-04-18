@@ -107,51 +107,17 @@ function decideThalamCounts() {
     $("#bpminput").val(selectedbpm);
 }
 
-function loaddiskjathis() {
-    const audioFiles = [
-        "1_,.mp3",
-        "1_ta.mp3",
-        "2_, ,.mp3",
-        "2_dhi ,.mp3",
-        "2_dhim ,.mp3",
-        "2_ki ,.mp3",
-        "2_nam ,.mp3",
-        "2_ta ,.mp3",
-        "2_ta ka.mp3",
-        "2_thom ,.mp3",
-        "3_, , ,.mp3",
-        "3_dhi , ,.mp3",
-        "3_dhim , ,.mp3",
-        "3_ta , ,.mp3",
-        "3_ta dhim ,.mp3",
-        "3_ta ki ta.mp3",
-        "3_thom , ,.mp3",
-        "4_, , , ,.mp3",
-        "4_dhim , , ,.mp3",
-        "4_ta dhim , ,.mp3",
-        "4_ta ka dhi mi.mp3",
-        "4_ta ka dhi na.mp3",
-        "4_ta ka ja nu.mp3",
-        "5_, , , , ,.mp3",
-        "5_dhim , , , ,.mp3",
-        "5_ta dhi gi na ta.mp3",
-        "5_ta dhim , , ,.mp3",
-        "5_ta ka ta ki ta.mp3",
-        "6_, , , , , ,.mp3",
-        "6_dhim , , , , ,.mp3",
-        "6_ta dhim , , , ,.mp3",
-        "7_, , , , , , ,.mp3",
-        "7_dhim , , , , , ,.mp3",
-        "7_ta dhim , , , , ,.mp3",
-        "8_, , , , , , , ,.mp3",
-        "8_dhim , , , , , , ,.mp3",
-        "8_ta dhim , , , , , ,.mp3",
-        "9_, , , , , , , , ,.mp3",
-        "9_dhim , , , , , , , ,.mp3",
-        "9_ta dhim , , , , , , ,.mp3",
-        "click2.mp3"
+function getAudioFiles() {
+    return [
+        "1_,.mp3", "1_ta.mp3", "2_, ,.mp3", "2_dhi ,.mp3", "2_dhim ,.mp3", "2_ki ,.mp3", "2_nam ,.mp3", "2_ta ,.mp3", "2_ta ka.mp3", "2_thom ,.mp3",
+        "3_, , ,.mp3", "3_dhi , ,.mp3", "3_dhim , ,.mp3", "3_ta , ,.mp3", "3_ta dhim ,.mp3", "3_ta ki ta.mp3", "3_thom , ,.mp3", "4_, , , ,.mp3", "4_dhim , , ,.mp3", "4_ta dhim , ,.mp3", "4_ta ka dhi mi.mp3", "4_ta ka dhi na.mp3", "4_ta ka ja nu.mp3",
+        "5_, , , , ,.mp3", "5_dhim , , , ,.mp3", "5_ta dhi gi na ta.mp3", "5_ta dhim , , ,.mp3", "5_ta ka ta ki ta.mp3", "6_, , , , , ,.mp3", "6_dhim , , , , ,.mp3", "6_ta dhim , , , ,.mp3", "7_, , , , , , ,.mp3", "7_dhim , , , , , ,.mp3", "7_ta dhim , , , , ,.mp3",
+        "8_, , , , , , , ,.mp3", "8_dhim , , , , , , ,.mp3", "8_ta dhim , , , , , ,.mp3", "9_, , , , , , , , ,.mp3", "9_dhim , , , , , , , ,.mp3", "9_ta dhim , , , , , , ,.mp3", "click2.mp3"
     ];
+}
 
+function loaddiskjathis() {
+    const audioFiles = getAudioFiles();
     var index = 0;
     for (var file of audioFiles) {
         if (file.indexOf("mp3") === -1 || file.indexOf("_start") !== -1) continue;
@@ -759,77 +725,57 @@ function movebuttonclicked(element) {
 }
 
 function ConvertCompositiontoComposeHtml(composition) {
-    var fullelement = [];
-    var repeatcontent = "";
-    composition.forEach(function (item, index) {
-        var previousitem = composition[index - 1];
-        if (item.type == "newjathi") {
-            if (previousitem != undefined) {
-                fullelement.push("</div> ");
+    if (!Array.isArray(composition)) {
+        throw new Error("Invalid input: composition must be an array.");
+    }
+
+    const fullelement = [];
+    let repeatcontent = "";
+
+    composition.forEach((item, index) => {
+        const previousitem = composition[index - 1];
+
+        if (item.type === "newjathi") {
+            if (previousitem) {
+                fullelement.push("</div>");
             }
             repeatcontent = "";
-            fullelement.push("<div class='addedjathidiv' > ");
-            fullelement.push("<span class='removejathi'>-</span> ");
-        }
-        else if (item.type == "emptyspace") {
-            if (previousitem != undefined && previousitem.type == "newjathi")
-                fullelement.push("<span class='bracket firstbracket' contenteditable='true'>&nbsp;</span>");
-            else
-                fullelement.push("<span class='bracket' contenteditable='true'>&nbsp;</span>");
-        }
-        else if (item.type == "addedjathi") {
-            var files = item.val;
-            displaytext = getTextFromFiles(files);
-            fullelement.push("<span class='addedjathi' files='" + files + "' >" + displaytext + "</span>");
-        }
-        else if (item.type == "repeatcount") {
-            var val = item.val;
-            fullelement.push("[<span class='repeatcount' contenteditable='true'>" + val + "</span>]");
-        }
-        else if (item.type == "bracket" && item.repeatcount == undefined) {
-            fullelement.push("<span class='bracket firstbracket' contenteditable='true'>" + item.val + "</span>");
-        }
-        else if (item.type == "bracket" && item.repeatcount != undefined) {
-            var content = item.val + "[" + item.repeatcount + "]";
-            if (repeatcontent != "") {
+            fullelement.push("<div class='addedjathidiv'>");
+            fullelement.push("<span class='removejathi'>-</span>");
+        } else if (item.type === "emptyspace") {
+            fullelement.push("<span class='bracket' contenteditable='true'>&nbsp;</span>");
+        } else if (item.type === "addedjathi") {
+            const files = item.val;
+            const displaytext = getTextFromFiles(files);
+            fullelement.push(`<span class='addedjathi' files='${files}'>${displaytext}</span>`);
+        } else if (item.type === "repeatcount") {
+            fullelement.push(`[<span class='repeatcount' contenteditable='true'>${item.val}</span>]`);
+        } else if (item.type === "bracket" && item.repeatcount === undefined) {
+            fullelement.push(`<span class='bracket' contenteditable='true'>${item.val}</span>`);
+        } else if (item.type === "bracket" && item.repeatcount !== undefined) {
+            let content = `${item.val}[${item.repeatcount}]`;
+            if (repeatcontent) {
                 content = repeatcontent + content;
                 fullelement.pop();
             }
-
-            fullelement.push("<span class='bracket' contenteditable='true'>" + content + "</span>");
+            fullelement.push(`<span class='bracket' contenteditable='true'>${content}</span>`);
             repeatcontent = content;
-        }
-        else if (item.type == "speed") {
-            if (item.val == "speed2" || item.val == "speed3" || item.val == "speed4") {
-                fullelement.push("<div class='speed2'  >________________________________________</div>");
+        } else if (item.type === "speed") {
+            fullelement.push("<div class='speed2'></div>");
+            if (item.val === "speed3" || item.val === "speed4") {
+                fullelement.push("<div class='speed3'></div>");
             }
-            else {
-                fullelement.push("<div class='speed2 hiddensymbol'  >________________________________________</div>");
+            if (item.val === "speed4") {
+                fullelement.push("<div class='speed4'></div>");
             }
-            if (item.val == "speed3" || item.val == "speed4") {
-                fullelement.push("<div class='speed3'  >________________________________________</div>");
-            }
-            else {
-                fullelement.push("<div class='speed3 hiddensymbol'  >________________________________________</div>");
-            }
-            if (item.val == "speed4") {
-                fullelement.push("<div class='speed4  >________________________________________</div>");
-            }
-            else {
-                fullelement.push("<div class='speed4 hiddensymbol'  >________________________________________</div>");
-            }
-        }
-        else if (item.type == "gathinumber") {
-            if (item.val != undefined)
-                fullelement.push("<div class='gathinumber' >" + item.val + "</div>");
-            else {
-                fullelement.push("<div class='gathinumber hiddensymbol' ></div>");
-            }
+        } else if (item.type === "gathinumber") {
+            fullelement.push(`<div class='gathinumber'>${item.val || ""}</div>`);
         }
     });
 
-    if (composition.length > 0)
-        fullelement.push("</div> ");
+    if (composition.length > 0) {
+        fullelement.push("</div>");
+    }
 
     return fullelement.join("");
 }
